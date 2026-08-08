@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Premier Mortgage — Design tokens
+   Warm, premium, trustworthy. Deep forest + gold on warm paper.
+   ============================================================ */
+
+:root {
+  /* Monochrome — white, black, greys */
+  --paper: #ffffff;
+  --paper-2: #f4f4f5;
+  --card: #ffffff;
+  --ink: #0a0a0a;
+  --ink-soft: #3f3f46;
+  --muted: #71717a;
+  --line: #e4e4e7;
+  --forest: #111113; /* dark blocks / primary buttons */
+  --forest-2: #27272a;
+  --forest-deep: #000000; /* darkest — footer / CTA */
+  --gold: #ea580c; /* orange accent on light (company accent) */
+  --gold-soft: #fb923c; /* orange accent on dark */
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-forest: var(--forest);
+  --color-forest-2: var(--forest-2);
+  --color-forest-deep: var(--forest-deep);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+
+  --font-sans: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-schibsted), var(--font-geist), sans-serif;
+  --font-mono: var(--font-departure), ui-monospace, monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--line);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Mono eyebrow label */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+/* Display headings */
+.display {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+}
+
+/* Subtle grain / vignette for hero */
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.035) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* Reveal-on-scroll */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  animation: rise 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+.link-underline:hover {
+  background-size: 100% 1px;
+}
