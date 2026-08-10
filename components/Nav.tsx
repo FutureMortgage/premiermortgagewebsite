@@ -16,14 +16,13 @@ const NAV: NavGroup[] = [
   {
     label: "About us",
     items: [
-      item("Our Mission", "What drives Premier and who we serve."),
+      { label: "Our Mission", href: "/our-mission", desc: "What drives Premier and who we serve." },
       { label: "Our People", href: "/leadership", desc: "Meet the team behind your loan." },
-      { label: "Org Chart", href: "/org-chart", desc: "How the company is structured." },
       { label: "Brand", href: "/brand", desc: "Logo, colors, and typography." },
-      item("Employee Reviews", "What it's like to work here."),
-      item("We give back", "Our community and charitable work."),
-      item("Frontline", "Stories from our loan officers."),
-      item("News & Articles", "Company news and market insight."),
+      { label: "Employee Reviews", href: "/employee-reviews", desc: "What it's like to work here." },
+      { label: "We give back", href: "/we-give-back", desc: "Our community and charitable work." },
+      { label: "Frontline", href: "/frontline", desc: "Stories from our loan officers." },
+      { label: "News & Articles", href: "/news", desc: "Company news and market insight." },
       { label: "Find a Loan Officer", href: "/find-a-loan-officer", desc: "Connect with a local expert." },
     ],
     featured: {
@@ -37,8 +36,8 @@ const NAV: NavGroup[] = [
   {
     label: "Services",
     items: [
-      item("Loan Programs", "Purchase, refinance, FHA / VA, jumbo."),
-      item("Loan Process", "From application to closing, step by step."),
+      { label: "Loan Programs", href: "/loan-programs", desc: "Purchase, refinance, FHA / VA, jumbo." },
+      { label: "Loan Process", href: "/loan-process", desc: "From application to closing, step by step." },
       item("Make a Payment", "Manage and pay your mortgage online."),
     ],
     featured: {

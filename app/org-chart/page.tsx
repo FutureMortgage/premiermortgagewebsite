@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Fragment } from "react";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
-import { OrgDivisions, type Division } from "@/components/OrgDivisions";
-import { OwnershipTier } from "@/components/OwnershipTier";
-import { ExecutiveTier } from "@/components/ExecutiveTier";
+import { type Division } from "@/components/OrgDivisions";
+import { OrgChartInteractive } from "@/components/OrgChartInteractive";
 
 export const metadata: Metadata = {
   title: "Org Chart — Premier Mortgage",
@@ -55,8 +54,8 @@ const DIVISIONS: Division[] = [
       title: "Chief Operating Officer",
       person: "TBD",
       children: [
-        { title: "EVP, Operations", children: [{ title: "Operations Manager", children: [{ title: "Processing" }, { title: "Closing" }, { title: "Funding" }, { title: "Post-Closing" }] }] },
-        { title: "Chief Credit Officer", children: [{ title: "EVP, Underwriting", children: [{ title: "VP / Director, Underwriting" }] }] },
+        { title: "EVP, Operations", children: [{ title: "Operations Manager", person: "Crystal Barylski", children: [{ title: "Processing" }, { title: "Closing" }, { title: "Funding" }, { title: "Post-Closing" }] }] },
+        { title: "Chief Credit Officer", children: [{ title: "EVP, Underwriting", person: "Amy Packer", children: [{ title: "VP / Director, Underwriting" }] }] },
       ],
     },
   },
@@ -65,7 +64,8 @@ const DIVISIONS: Division[] = [
     reportsTo: "Cory Swain",
     root: {
       title: "Chief Capital Markets Officer",
-      children: [{ title: "Chief Investment Officer", children: [{ title: "VP, Capital Markets", children: [{ title: "Secondary Marketing" }, { title: "Lock Desk" }, { title: "Investor Relations" }] }] }],
+      person: "David Dysert",
+      children: [{ title: "Chief Investment Officer", children: [{ title: "VP, Capital Markets", children: [{ title: "Secondary Marketing" }, { title: "Pricing" }, { title: "Hedging" }, { title: "Lock Desk" }, { title: "Investor Relations" }] }] }],
     },
   },
   {
@@ -73,14 +73,16 @@ const DIVISIONS: Division[] = [
     reportsTo: "Cory Swain",
     root: {
       title: "Chief Financial Officer",
-      children: [{ title: "Controller", children: [{ title: "VP / Director, Finance", children: [{ title: "Accounting" }, { title: "Payroll" }, { title: "Commissions / AP / AR" }] }] }],
+      person: "James Hagen",
+      children: [{ title: "Controller", person: "Judi Jenkins", children: [{ title: "VP / Director, Finance", children: [{ title: "Accounting" }, { title: "Payroll" }, { title: "Commissions / AP / AR" }] }] }],
     },
   },
   {
     name: "Compliance & Risk",
-    reportsTo: "TBD",
+    reportsTo: "Cory Swain",
     root: {
       title: "Chief Compliance Officer",
+      person: "Tracy Reece",
       children: [{ title: "VP, Compliance", children: [{ title: "Licensing & Regulatory" }, { title: "Quality Control" }, { title: "Audit" }] }],
     },
   },
@@ -120,6 +122,7 @@ const DIVISIONS: Division[] = [
     reportsTo: "John Bianchi",
     root: {
       title: "Chief Marketing Officer",
+      person: "Candace Ellington",
       children: [{ title: "VP, Marketing", children: [{ title: "Brand" }, { title: "Digital Marketing" }, { title: "Content / Social" }, { title: "Sales Marketing" }, { title: "Recruiting Marketing" }] }],
     },
   },
@@ -129,8 +132,8 @@ const DIVISIONS: Division[] = [
     root: {
       title: "Chief People Officer",
       children: [
-        { title: "Director of Human Resources", children: [{ title: "Recruiting / Talent" }, { title: "HR / Benefits" }, { title: "Training / Employee Experience" }] },
-        { title: "Director of Administration" },
+        { title: "Director of Human Resources", person: "Lisa Sampson", children: [{ title: "Recruiting / Talent" }, { title: "HR / Benefits" }, { title: "Training / Employee Experience" }] },
+        { title: "Director of Administration", person: "Kim Scott" },
       ],
     },
   },
@@ -139,7 +142,7 @@ const DIVISIONS: Division[] = [
     reportsTo: "John Bianchi",
     root: {
       title: "SVP, Branch Support",
-      children: [{ title: "Director of Branch Support", children: [{ title: "Branch Onboarding" }, { title: "Licensing Support" }, { title: "LO Support" }, { title: "Branch Administration" }] }],
+      children: [{ title: "Director of Branch Support", person: "Summertyme Shriner", children: [{ title: "Branch Onboarding" }, { title: "Licensing Support" }, { title: "LO Support" }, { title: "Branch Administration" }] }],
     },
   },
   {
@@ -148,6 +151,47 @@ const DIVISIONS: Division[] = [
     root: {
       title: "VP, Growth",
       children: [{ title: "Talent Acquisition" }],
+    },
+  },
+  {
+    name: "Risk",
+    reportsTo: "Cory Swain",
+    root: {
+      title: "Chief Risk Officer",
+      children: [
+        { title: "Enterprise Risk Management" },
+        { title: "Repurchase Risk" },
+        { title: "QC Oversight" },
+        { title: "Counterparty Risk" },
+        { title: "Operational Risk Monitoring" },
+      ],
+    },
+  },
+  {
+    name: "Legal",
+    reportsTo: "Cory Swain",
+    root: {
+      title: "Chief Legal Officer",
+      children: [
+        { title: "Corporate Counsel" },
+        { title: "Contracts & Vendor" },
+        { title: "Litigation & Disputes" },
+        { title: "Regulatory Affairs" },
+      ],
+    },
+  },
+  {
+    name: "Servicing",
+    reportsTo: "TBD",
+    root: {
+      title: "Chief Servicing Officer",
+      children: [
+        { title: "Loan Servicing" },
+        { title: "Escrow & Impounds" },
+        { title: "Investor Reporting" },
+        { title: "Default & Loss Mitigation" },
+        { title: "Customer Care" },
+      ],
     },
   },
 ];
@@ -185,32 +229,8 @@ export default function OrgChartPage() {
         </p>
       </section>
 
-      {/* executive / ownership */}
-      <section className="mx-auto max-w-6xl px-5 pt-10 sm:px-8">
-        <div className="flex flex-col items-center">
-          <span className="eyebrow text-muted">Executive / Ownership</span>
-          <ExecutiveTier people={EXEC} leaders={DIRECT_REPORTS} divisions={DIVISIONS} />
-          <div className="mt-2 h-8 w-px bg-line" aria-hidden />
-          <span className="eyebrow text-muted">Reports to ownership</span>
-          <OwnershipTier people={DIRECT_REPORTS} divisions={DIVISIONS} />
-          <div className="mt-2 h-10 w-px bg-line" aria-hidden />
-          <span className="rounded-full border border-line bg-paper-2 px-4 py-1.5 text-xs font-medium text-muted">
-            {`${DIVISIONS.length} divisions report to the CEO, President & COO`}
-          </span>
-        </div>
-      </section>
-
-      {/* divisions (clickable) */}
-      <section className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
-        <OrgDivisions
-          divisions={DIVISIONS}
-          groups={[
-            { name: "Cory Swain", role: "Founder & CEO" },
-            { name: "TBD", role: "Chief Operating Officer" },
-            { name: "John Bianchi", role: "President, Origination" },
-          ]}
-        />
-      </section>
+      {/* reporting hierarchy + divisions (shared Current/Scale mode) */}
+      <OrgChartInteractive exec={EXEC} leaders={DIRECT_REPORTS} divisions={DIVISIONS} />
 
       {/* CTA */}
       <section className="mx-auto max-w-6xl px-5 pb-24 sm:px-8">
