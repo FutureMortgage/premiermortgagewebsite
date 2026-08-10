@@ -18,6 +18,8 @@ const NAV: NavGroup[] = [
     items: [
       item("Our Mission", "What drives Premier and who we serve."),
       { label: "Our People", href: "/leadership", desc: "Meet the team behind your loan." },
+      { label: "Org Chart", href: "/org-chart", desc: "How the company is structured." },
+      { label: "Brand", href: "/brand", desc: "Logo, colors, and typography." },
       item("Employee Reviews", "What it's like to work here."),
       item("We give back", "Our community and charitable work."),
       item("Frontline", "Stories from our loan officers."),
@@ -29,7 +31,7 @@ const NAV: NavGroup[] = [
       title: "Join the Frontline",
       body: "We're growing across 48 states. See where you fit.",
       cta: "View openings",
-      href: "#careers",
+      href: "/careers",
     },
   },
   {

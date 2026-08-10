@@ -189,7 +189,7 @@ export default function LeadershipPage() {
             </p>
           </div>
           <a
-            href="#careers"
+            href="/careers"
             className="shrink-0 rounded-full bg-forest px-6 py-3.5 text-sm font-medium text-paper transition-colors hover:bg-forest-2"
           >
             View open roles
