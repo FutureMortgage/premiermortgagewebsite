@@ -10,6 +10,8 @@
 @media(max-width:480px){.hero h1{font-size:2.55rem;letter-spacing:-.07em}.hero h1>span{white-space:normal}.hero h1>span:after{height:2px}.announcement{font-size:.75rem}.heroNote{font-size:.75rem}.actions{gap:10px}.actions>a{padding:12px 18px;font-size:.875rem;gap:10px}.previewGrid{grid-template-columns:1fr}.homeCard{grid-column:auto}.houseVisual{height:250px}.numberVisual,.processVisual{height:235px}.numberBars{left:55%}.previewLabel h2{font-size:1.125rem}.values{grid-template-columns:1fr}.values h3{margin-top:19px}.sectionHeading h2{font-size:2.25rem}.footerTop{gap:35px 20px}.footerTop>div:first-child{grid-column:1/-1}.hero{padding-top:43px}}
 @media(prefers-reduced-motion:reduce){.page *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 /* Premier copper is reserved for primary actions and small brand accents. */
+.logo{width:155px}
+@media(max-width:800px){.logo{width:138px}}
 .page a.primary:hover,.page a.secondary:hover,.page button:not(:disabled):hover{color:#fff!important;background:#a45a33!important;border-color:#a45a33!important}
 .page a.primary:hover *,.page a.secondary:hover *,.page button:not(:disabled):hover *{color:#fff!important}
 .page button:not(:disabled):hover span{background:transparent}

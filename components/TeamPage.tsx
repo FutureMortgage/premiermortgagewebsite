@@ -9,7 +9,7 @@ import styles from "./team.module.css";
 
 type Person = typeof data.people[number];
 const PAGE_SIZE = 24;
-const categories = ["All people", "Loan officers", "Branch managers", "Division leaders", "Staff", "Leadership"];
+const categories = ["All people", "Loan officers", "Branch managers", "Division leaders"];
 const normalize = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const leadershipRank = (title: string) => title === "Chief Executive Officer" ? 0 : title === "Co-Founder" ? 1 : title === "President" ? 2 : title === "Chief Operating Officer" ? 3 : title === "Chief Innovation Officer" ? 4 : /^Chief\b/.test(title) ? 5 : 6;
 const orderedLeadership = [
@@ -33,8 +33,8 @@ export function TeamPage({ directoryOnly = false }: { directoryOnly?: boolean })
   const [sort, setSort] = useState("az");
   const resultsHeading = useRef<HTMLParagraphElement>(null);
   const people = useMemo(() => {
-    const existing = new Set(data.people.map(p => normalize(p.name)));
-    return [...data.people, ...data.leaders.filter(p => !existing.has(normalize(p.name)))];
+    const executives = new Set(data.leaders.map(p => normalize(p.name)));
+    return data.people.filter(p => categories.slice(1).includes(p.category) && !executives.has(normalize(p.name)));
   }, []);
   const filtered = useMemo(() => people.filter(p => (category === "All people" || p.category === category) && normalize(`${p.name} ${p.title} ${p.nmls}`).includes(normalize(query.trim()))).sort((a, b) => sort === "za" ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name)), [people, category, query, sort]);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
@@ -58,7 +58,7 @@ export function TeamPage({ directoryOnly = false }: { directoryOnly?: boolean })
       </>}
       {directoryOnly && <section className={styles.hero}><div><span className={shared.eyebrow}>FIND A LOAN OFFICER</span><h1>A real person.<br /><span>Your next step.</span></h1><p>Find someone to help you explore your home financing options. Search by name or NMLS number.</p></div></section>}
       <section className={styles.directory} id="directory">
-        <div className={styles.sectionTitle}><div><span className={shared.eyebrow}>FIND YOUR CONNECTION</span><h2>Many talents.<br /><span>One Premier.</span></h2></div><p>Loan officers, branch managers, division leaders, and the people who keep it all moving. Find someone by name, role, or NMLS number.</p></div>
+        <div className={styles.sectionTitle}><div><span className={shared.eyebrow}>FIND YOUR CONNECTION</span><h2>Many talents.<br /><span>One Premier.</span></h2></div><p>Meet our loan officers, branch managers, and division leaders. Find someone by name, role, or NMLS number.</p></div>
         <div className={styles.filters}>
           <label className={styles.search}><span>Search our team</span><div><svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" strokeWidth="1.6"/><path d="m16 16 5 5" stroke="currentColor" strokeWidth="1.6"/></svg><input type="search" value={query} onChange={e => { setQuery(e.target.value); setPage(1); }} placeholder="Name, role, or NMLS number" /></div></label>
           <label className={styles.roleFilter}><span>Team</span><select value={category} onChange={e => { setCategory(e.target.value); setPage(1); }}>{categories.map(c => <option key={c} value={c}>{c}</option>)}</select></label>
@@ -68,7 +68,7 @@ export function TeamPage({ directoryOnly = false }: { directoryOnly?: boolean })
         <div className={styles.resultsBar}><p ref={resultsHeading} tabIndex={-1} aria-live="polite"><strong>{filtered.length}</strong> {filtered.length === 1 ? "profile" : "profiles"}{query ? ` matching “${query}”` : category !== "All people" ? ` · ${category}` : " in our directory"}</p><button type="button" onClick={reset}>Reset filters</button></div>
         {visible.length ? <div className={styles.peopleGrid}>{visible.map(person => <article className={styles.person} key={person.id}><div className={styles.personTop}><Portrait person={person}/><span className={styles.roleBadge}>{person.category}</span></div><h3>{person.name}</h3><p className={styles.personTitle}>{person.title}</p><p className={styles.nmls}>{person.nmls ? `NMLS #${person.nmls}` : "Premier Mortgage Resources"}</p><div className={styles.personLinks}>{person.phone && <a href={`tel:${person.phone.split(/ext/i)[0].replace(/\D/g, "")}`}>{person.phone}</a>}<a href={person.source} target="_blank" rel="noreferrer">{person.phone ? "PMR directory" : "About leadership"}<Arrow diagonal /></a></div></article>)}</div> : <div className={styles.empty}><h3>No matches just yet.</h3><p>Try a different name, NMLS number, or team.</p><button type="button" onClick={reset}>Show everyone <Arrow /></button></div>}
         {filtered.length > PAGE_SIZE && <nav className={styles.pagination} aria-label="Directory pagination"><span>Showing {(currentPage - 1) * PAGE_SIZE + 1}–{Math.min(currentPage * PAGE_SIZE, filtered.length)} of {filtered.length}</span><div><button disabled={currentPage === 1} onClick={() => changePage(currentPage - 1)} aria-label="Previous page">←</button>{Array.from({ length: totalPages }, (_, i) => i + 1).filter(n => n === 1 || n === totalPages || Math.abs(n - currentPage) <= 1).map((n, i, numbers) => <span key={n}>{i > 0 && n - numbers[i - 1] > 1 && <span className={styles.ellipsis}>…</span>}<button onClick={() => changePage(n)} aria-current={n === currentPage ? "page" : undefined} aria-label={`Page ${n}`}>{n}</button></span>)}<button disabled={currentPage === totalPages} onClick={() => changePage(currentPage + 1)} aria-label="Next page">→</button></div></nav>}
-        <p className={styles.sourceNote}>Profiles from Premier’s public directory and leadership page, reviewed September 9, 2026. Some staff may not be listed. <a href="/find-a-loan-officer/">Need help finding someone? ↗</a></p>
+        <p className={styles.sourceNote}>Loan officers, branch managers, and division leaders from Premier’s public directory, with team updates. <a href="/contact-us/">Need help finding someone? ↗</a></p>
       </section>
       <section className={styles.join}><div><span className={shared.eyebrow}>THERE’S ROOM FOR YOU HERE</span><h2>Your next chapter.<br />Our next teammate.</h2></div><a href="/join-pmr/" className={shared.primary}>Explore a future at Premier <Arrow diagonal /></a></section>
     </main>
