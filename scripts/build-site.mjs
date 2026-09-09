@@ -9,7 +9,12 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const stagingParent = path.join(root, ".site-builds");
 await mkdir(stagingParent, { recursive: true });
 const staging = await mkdtemp(path.join(stagingParent, "preview-"));
-const sources = ["package.json", "tsconfig.json", "postcss.config.mjs", "app/page.tsx", "app/layout.tsx", "app/globals.css", "app/fonts", "app/icon.svg", "components/PremierSite.tsx", "components/MortgageCalculator.tsx", "components/premier.module.css", "lib/mortgage.ts", "public/premier-logo.png", "public/hero.jpg"];
+const sources = ["package.json", "tsconfig.json", "postcss.config.mjs", "app/page.tsx", "app/layout.tsx", "app/globals.css", "app/fonts", "app/icon.svg", "components/PremierSite.tsx", "components/MortgageCalculator.tsx", "components/premier.module.css", "lib/mortgage.ts", "public/premier-logo.png", "public/hero.jpg", "app/team", "components/TeamPage.tsx", "components/team.module.css", "data/team.json", "public/team", "components/HomepageVideo.tsx", "public/premier-homepage.mp4", "public/premier-homepage-poster.jpg"];
+sources.push("components/ServicePages.tsx", "components/services.module.css", ...["make-a-payment", "our-mission", "join-pmr", "careers", "job-opportunities", "contact-us", "privacy-policy", "legal", "state-licensing", "find-a-loan-officer"].map(route => `app/${route}`));
+sources.push("components/StateLicenses.tsx");
+sources.push("components/JoinExtras.tsx");
+sources.push("components/AboutStory.tsx");
+sources.push("app/loan-officer-careers");
 for (const relative of sources) {
   const dest = path.join(staging, relative);
   await mkdir(path.dirname(dest), { recursive: true });

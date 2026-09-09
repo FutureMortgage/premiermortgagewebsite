@@ -6,7 +6,8 @@ export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // Always allow the gate page and the unlock endpoint through.
-  if (pathname === "/" || pathname === "/gate" || pathname.startsWith("/api/gate")) {
+  const publicPages = ["/", "/team", "/find-a-loan-officer", "/make-a-payment", "/our-mission", "/join-pmr", "/careers", "/job-opportunities", "/contact-us", "/privacy-policy", "/legal", "/state-licensing"];
+  if ([...publicPages, "/loan-officer-careers"].includes(pathname.replace(/\/$/, "") || "/") || pathname === "/gate" || pathname.startsWith("/api/gate")) {
     return NextResponse.next();
   }
 

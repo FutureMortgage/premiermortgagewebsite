@@ -10,17 +10,17 @@
   --paper: #ffffff;
   --paper-2: #f4f4f5;
   --card: #ffffff;
-  --ink: #151719;
+  --ink: #2c2928;
   --ink-soft: #3f3f46;
   --muted: #71717a;
   --line: #e4e4e7;
   --forest: #111113; /* dark blocks / primary buttons */
   --forest-2: #27272a;
   --forest-deep: #000000; /* darkest — footer / CTA */
-  --gold: #225ad0;
-  --gold-soft: #9ebfff;
-  --premier-blue: #225ad0;
-  --premier-surface: #f6f7f9;
+  --gold: #a45a33;
+  --gold-soft: #e2aa83;
+  --premier-accent: #a45a33;
+  --premier-surface: #f8f6f4;
 }
 
 @theme inline {

@@ -1,0 +1,2538 @@
+{
+  "updated": "2026-09-09",
+  "rosterComplete": false,
+  "leaders": [
+    {
+      "id": "lead-cory-swain",
+      "name": "Cory Swain",
+      "title": "CEO",
+      "photo": "/team/cory-swain-neutral.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-john-bianchi",
+      "name": "John Bianchi",
+      "title": "President",
+      "photo": "/team/john-bianchi.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-mandi-feely-swain",
+      "name": "Mandi Feely Swain",
+      "title": "Co-Founder",
+      "photo": "/team/mandi-feely-swain.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-caleb-wilson",
+      "name": "Caleb Wilson",
+      "title": "CFO",
+      "photo": "",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-david-dysert",
+      "name": "David Dysert",
+      "title": "Chief Capital Markets Officer",
+      "photo": "/team/david-dysert.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-amy-packer",
+      "name": "Amy Packer",
+      "title": "EVP of Underwriting",
+      "photo": "/team/amy-packer.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-candace-ellington",
+      "name": "Candace Ellington",
+      "title": "Chief Marketing Officer",
+      "photo": "/team/candace-ellington.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-tracy-reece",
+      "name": "Tracy Reece",
+      "title": "Chief Compliance Officer",
+      "photo": "/team/tracy-reece.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-blake-bianchi",
+      "name": "Blake Bianchi",
+      "title": "Chief Innovation Officer",
+      "photo": "/team/blake-bianchi.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "/team#leadership"
+    },
+    {
+      "id": "lead-jeremy-swain",
+      "name": "Jeremy Swain",
+      "title": "Chief Information Officer",
+      "photo": "/team/jeremy-swain.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-summertyme-shriner",
+      "name": "Summertyme Shriner",
+      "title": "Director of Branch Support",
+      "photo": "/team/summertyme-shriner.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-kim-scott",
+      "name": "Kim Scott",
+      "title": "Director of Administration",
+      "photo": "/team/kim-scott.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-crystal-barylski",
+      "name": "Crystal Barylski",
+      "title": "Operations Manager",
+      "photo": "/team/crystal-barylski.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-lisa-sampson",
+      "name": "Lisa Sampson",
+      "title": "Director of Human Resources",
+      "photo": "/team/lisa-sampson.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-judi-jenkins",
+      "name": "Judi Jenkins",
+      "title": "Controller",
+      "photo": "/team/judi-jenkins.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-salvatore-cirrito",
+      "name": "Salvatore Cirrito",
+      "title": "Director of Technology",
+      "photo": "/team/salvatore-cirrito.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-alan-wackman",
+      "name": "Alan Wackman",
+      "title": "EVP of Operations",
+      "photo": "",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-tracy-young",
+      "name": "Tracy Young",
+      "title": "Chief Credit Officer",
+      "photo": "",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    }
+  ],
+  "people": [
+    {
+      "id": "division-dave-shumard",
+      "name": "Dave Shumard",
+      "title": "Division Manager",
+      "photo": "/team/dave-shumard.png",
+      "category": "Division leaders",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "399456",
+      "name": "Zach Batte",
+      "title": "Loan Officer",
+      "nmls": "399456",
+      "phone": "(208) 423-0278",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "2857220",
+      "name": "David Shuster",
+      "title": "Loan Officer",
+      "nmls": "2857220",
+      "phone": "(208) 423-0676",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/08/Screenshot-2026-08-28-124534-276x300.png"
+    },
+    {
+      "id": "2794071",
+      "name": "Morgan Valdez",
+      "title": "Loan Officer",
+      "nmls": "2794071",
+      "phone": "(208) 423-0282",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "2844287",
+      "name": "Hunter Kelson",
+      "title": "Loan Officer",
+      "nmls": "2844287",
+      "phone": "(404) 354-4306",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/08/Headshot-240x300.png"
+    },
+    {
+      "id": "2627019",
+      "name": "Robin Blanco",
+      "title": "Loan Officer",
+      "nmls": "2627019",
+      "phone": "(205) 702-0025",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/08/Robin-Coates-by-B-Mor-Creative-002-240x300.jpg"
+    },
+    {
+      "id": "358853",
+      "name": "Brian Midland",
+      "title": "Loan Officer",
+      "nmls": "358853",
+      "phone": "(949) 232-6900",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/08/Midland_headshot-oh3MLe1YkACDdz8xQ5VjKdDAIrtsJ6-247x300.jpg"
+    },
+    {
+      "id": "232306",
+      "name": "Daniel Salas",
+      "title": "Branch Manager & Loan Officer",
+      "nmls": "232306",
+      "phone": "(530) 897.4090",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Branch managers",
+      "photo": ""
+    },
+    {
+      "id": "73996",
+      "name": "Jody Beumeler",
+      "title": "Licensed Loan Officer Assistant",
+      "nmls": "73996",
+      "phone": "(208) 999-3655",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Staff",
+      "photo": ""
+    },
+    {
+      "id": "56861",
+      "name": "Mark Farley",
+      "title": "Loan Officer",
+      "nmls": "56861",
+      "phone": "(206) 595-6788",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "1792402",
+      "name": "Maegan McVoy",
+      "title": "Loan Officer",
+      "nmls": "1792402",
+      "phone": "(682) 318-2678",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "161812",
+      "name": "Scott Wudarcki",
+      "title": "Branch Manager",
+      "nmls": "161812",
+      "phone": "(208) 869-0132",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/07/Scott-Wudarcki-300x300.png"
+    },
+    {
+      "id": "2806493",
+      "name": "Koby Giler",
+      "title": "Loan Officer",
+      "nmls": "2806493",
+      "phone": "(208) 921-6826",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/07/KGZ-300x300.png"
+    },
+    {
+      "id": "523512",
+      "name": "Yvonne Kelly",
+      "title": "Branch Manager",
+      "nmls": "523512",
+      "phone": "(406)-672-7810",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/06/Yvonne-Kelly-1-300x300.png"
+    },
+    {
+      "id": "1047832",
+      "name": "Nikki Waldo",
+      "title": "Branch Manager",
+      "nmls": "1047832",
+      "phone": "(406) 696-4648",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/06/Nikki-Waldo-1-300x300.png"
+    },
+    {
+      "id": "2846760",
+      "name": "Daniel Wetmore",
+      "title": "Loan Officer",
+      "nmls": "2846760",
+      "phone": "(864) 590-6340",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/06/Daniel-Wetmore-300x300.png"
+    },
+    {
+      "id": "2681780",
+      "name": "Jason Sleep",
+      "title": "Loan Officer",
+      "nmls": "2681780",
+      "phone": "(830) 446-1365",
+      "source": "https://www.pmrloans.com/loan-officers/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "1885888",
+      "name": "Alissa Militello",
+      "title": "Loan Officer",
+      "nmls": "1885888",
+      "phone": "(406) 249-3168",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/06/Alissa-Militello-300x300.png"
+    },
+    {
+      "id": "245043",
+      "name": "Stephen LeBoeuf",
+      "title": "Loan Officer",
+      "nmls": "245043",
+      "phone": "(307) 454-1833",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/06/Stephen-LeBoeuf-1-300x300.png"
+    },
+    {
+      "id": "2558992",
+      "name": "Jamie Wohlgemuth",
+      "title": "Loan Officer",
+      "nmls": "2558992",
+      "phone": "(316) 305-5390",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/05/Jamie-Wohlgemuth-copy-e1778284789582-300x300.jpg"
+    },
+    {
+      "id": "568482",
+      "name": "Kathy Ford",
+      "title": "Loan Officer",
+      "nmls": "568482",
+      "phone": "(817) 219-2239",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/05/Kathy-Ford-e1778177432961-300x300.jpg"
+    },
+    {
+      "id": "781868",
+      "name": "Jackie Quinn",
+      "title": "Loan Officer",
+      "nmls": "781868",
+      "phone": "(724) 602-6323",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/05/Jackie-Quinncopy-e1778023293514-300x300.png"
+    },
+    {
+      "id": "217681",
+      "name": "Paula May-Vollaire",
+      "title": "Loan Officer",
+      "nmls": "217681",
+      "phone": "(208) 571-0923",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Paula-May-copy-e1778021234271-300x300.png"
+    },
+    {
+      "id": "2453212",
+      "name": "Melissa Mason",
+      "title": "Loan Officer",
+      "nmls": "2453212",
+      "phone": "(305) 900-9154",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Melissa-Mason-copy-e1778265672964-300x300.jpg"
+    },
+    {
+      "id": "1742923",
+      "name": "Bao Hang",
+      "title": "Loan Officer",
+      "nmls": "1742923",
+      "phone": "(770) 238-6333",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Bao-redone-1-scaled-e1778627468264-300x300.jpg"
+    },
+    {
+      "id": "2505391",
+      "name": "Jordan Phillips",
+      "title": "Loan Officer",
+      "nmls": "2505391",
+      "phone": "(470) 731-2906",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "2648002",
+      "name": "Jeremy Scott",
+      "title": "Loan Officer",
+      "nmls": "2648002",
+      "phone": "(321) 353-3206",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Jeremy-Scott-scaled-e1776195430377-300x300.jpeg"
+    },
+    {
+      "id": "2612854",
+      "name": "Dora Isaksen",
+      "title": "Loan Officer",
+      "nmls": "2612854",
+      "phone": "(208) 258-9444",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/03/Dora-Isaksen-copy-e1774644175690-300x300.jpg"
+    },
+    {
+      "id": "1211797",
+      "name": "Tony Eckman",
+      "title": "Branch Manager",
+      "nmls": "1211797",
+      "phone": "(208) 390-2256",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/03/Tony-Eckman-300x300.png"
+    },
+    {
+      "id": "1170437",
+      "name": "Shannon Huyg",
+      "title": "Branch Manager",
+      "nmls": "1170437",
+      "phone": "(208) 936-2789",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Shan-Prof-Color-scaled-e1777494248488-300x300.jpg"
+    },
+    {
+      "id": "2787606",
+      "name": "Anthony Ross",
+      "title": "Loan Officer",
+      "nmls": "2787606",
+      "phone": "(206) 851-8192",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/02/Anthony-Ross-e1774047037570-300x300.jpg"
+    },
+    {
+      "id": "206076",
+      "name": "Tabatha Abbott",
+      "title": "Loan Officer",
+      "nmls": "206076",
+      "phone": "(404) 906-1725",
+      "source": "https://www.pmrloans.com/loan-officers/page/2/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "1995626",
+      "name": "Lydia Mikhail",
+      "title": "Loan Officer",
+      "nmls": "1995626",
+      "phone": "(774) 300-0169",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/11/Lydia-e1764115011316-300x300.jpg"
+    },
+    {
+      "id": "2741329",
+      "name": "Shana Gonzales",
+      "title": "Loan Officer",
+      "nmls": "2741329",
+      "phone": "(661) 476-4155",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/11/Shana-Gonzales-300x300.png"
+    },
+    {
+      "id": "57785",
+      "name": "Gary Boyer",
+      "title": "Loan Officer",
+      "nmls": "57785",
+      "phone": "(503) 807-3925",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/11/Gary-Boyer-300x300.jpg"
+    },
+    {
+      "id": "2738953",
+      "name": "Breana Cave",
+      "title": "Loan Officer",
+      "nmls": "2738953",
+      "phone": "(678) 877-5055",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/11/Breana-Cave-e1763062110103-300x300.jpeg"
+    },
+    {
+      "id": "1882966",
+      "name": "Ana Arroyo",
+      "title": "Loan Officer",
+      "nmls": "1882966",
+      "phone": "(602) 350-7818",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/03/Portrait_Placeholder-300x300.png"
+    },
+    {
+      "id": "2529189",
+      "name": "Suzanne Ray",
+      "title": "Loan Officer",
+      "nmls": "2529189",
+      "phone": "(812) 606-3009",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Suzanne-643-scaled-e1759875859860-300x300.jpg"
+    },
+    {
+      "id": "2709237",
+      "name": "James Clemmons",
+      "title": "Loan Officer",
+      "nmls": "2709237",
+      "phone": "(623) 206-6250",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/James-Clemmons-300x300.png"
+    },
+    {
+      "id": "2218664",
+      "name": "Patricia Bundy",
+      "title": "Loan Officer",
+      "nmls": "2218664",
+      "phone": "(725) 239-7626",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Patricia-Bundy-rotated-e1758914557595-300x300.jpg"
+    },
+    {
+      "id": "2128159",
+      "name": "Adreina Caballero",
+      "title": "Loan Officer",
+      "nmls": "2128159",
+      "phone": "(623) 229-6609",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Adreina-Caballero-e1758665849214-300x300.jpg"
+    },
+    {
+      "id": "2567829",
+      "name": "Aaron Miskin",
+      "title": "Loan Officer",
+      "nmls": "2567829",
+      "phone": "(208) 572-8500",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Aaron-Miskin-e1758307374625-300x300.jpg"
+    },
+    {
+      "id": "1002585",
+      "name": "Ben King",
+      "title": "Loan Officer",
+      "nmls": "1002585",
+      "phone": "(770) 530-2091",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Ben-King-300x300.jpg"
+    },
+    {
+      "id": "1929908",
+      "name": "Steve Ginnett",
+      "title": "Loan Officer",
+      "nmls": "1929908",
+      "phone": "(425) 419-7374",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Steve-Ginnett-e1758136361845-300x300.png"
+    },
+    {
+      "id": "271047",
+      "name": "Nancy Barlow",
+      "title": "Loan Officer",
+      "nmls": "271047",
+      "phone": "(719) 237-4536",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/nancy-barlow-e1758060681216-300x300.png"
+    },
+    {
+      "id": "215546",
+      "name": "Alan Farrell",
+      "title": "Loan Officer",
+      "nmls": "215546",
+      "phone": "(405) 831-5706",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Alan-Farrell1-e1758054896335-300x300.jpg"
+    },
+    {
+      "id": "215188",
+      "name": "James Laing",
+      "title": "Branch Manager",
+      "nmls": "215188",
+      "phone": "(719) 432-9996",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/James-Laing-e1757966519619-300x300.png"
+    },
+    {
+      "id": "1537433",
+      "name": "Giancarlo Anduray",
+      "title": "Branch Manager",
+      "nmls": "1537433",
+      "phone": "(623) 552-4191",
+      "source": "https://www.pmrloans.com/loan-officers/page/3/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Giancarlo-e1757553503614-300x300.png"
+    },
+    {
+      "id": "2383290",
+      "name": "Justine Flores",
+      "title": "Loan Officer",
+      "nmls": "2383290",
+      "phone": "(512) 937-4530",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/09/Justine-Flores-300x300.png"
+    },
+    {
+      "id": "2160449",
+      "name": "Maddi Davide",
+      "title": "Loan Officer",
+      "nmls": "2160449",
+      "phone": "(406) 260-6360",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Maddi-Davide-300x300.jpg"
+    },
+    {
+      "id": "201518",
+      "name": "Steve Paulson",
+      "title": "Branch Manager",
+      "nmls": "201518",
+      "phone": "(406) 253-3324",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Steve-Paulson-e1756424745643-300x300.jpg"
+    },
+    {
+      "id": "1671186",
+      "name": "Alexandra San Martino",
+      "title": "Loan Officer",
+      "nmls": "1671186",
+      "phone": "(817) 944-3350",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Alex-San-Martino-e1756335567157-300x300.png"
+    },
+    {
+      "id": "2012137",
+      "name": "Preston Jones",
+      "title": "Loan Officer",
+      "nmls": "2012137",
+      "phone": "(210) 683-1921",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Preston-Jones-297x300.png"
+    },
+    {
+      "id": "1768187",
+      "name": "JC Carpenter",
+      "title": "Loan Officer",
+      "nmls": "1768187",
+      "phone": "(210) 508-6711",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/JC-Carpenter-297x300.png"
+    },
+    {
+      "id": "513437",
+      "name": "Mark Jones",
+      "title": "Branch Manager",
+      "nmls": "513437",
+      "phone": "(210) 683-1481",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Mark-Jones-1x1-1-300x300.png"
+    },
+    {
+      "id": "1474166",
+      "name": "Kenya Schatz",
+      "title": "Loan Officer",
+      "nmls": "1474166",
+      "phone": "(406) 461-2868",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Kenya-Schatz2-scaled-e1756253565368-300x300.jpg"
+    },
+    {
+      "id": "1897022",
+      "name": "Levi Hill",
+      "title": "Loan Officer",
+      "nmls": "1897022",
+      "phone": "(406) 465-1883",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Levi-Hill-new-pic-copy-scaled-e1765416182767-300x300.jpg"
+    },
+    {
+      "id": "747559",
+      "name": "Corey Hill",
+      "title": "Branch Manager",
+      "nmls": "747559",
+      "phone": "(406) 461-7969",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Corey-Hill-new-scaled-e1760647464726-300x300.jpg"
+    },
+    {
+      "id": "2474316",
+      "name": "Kyah Criddle",
+      "title": "Loan Officer",
+      "nmls": "2474316",
+      "phone": "(208) 351-7505",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Kyah-Criddle-scaled-e1755825328200-300x300.jpeg"
+    },
+    {
+      "id": "1753669",
+      "name": "Narda Lopez",
+      "title": "Loan Officer",
+      "nmls": "1753669",
+      "phone": "(208) 709-8847",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Narda-TE-e1756160905368.png"
+    },
+    {
+      "id": "2112032",
+      "name": "Brittany Lopez",
+      "title": "Loan Officer",
+      "nmls": "2112032",
+      "phone": "(208) 339-8116",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/brittany-lopez-photoshopped-e1755819253792-300x300.jpg"
+    },
+    {
+      "id": "20009",
+      "name": "Deb Criddle",
+      "title": "Branch Manager",
+      "nmls": "20009",
+      "phone": "(208) 313-6886",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/image-25-e1777398476255-300x300.png"
+    },
+    {
+      "id": "2191104",
+      "name": "Connor McCormick",
+      "title": "Loan Officer",
+      "nmls": "2191104",
+      "phone": "(770) 312-5212",
+      "source": "https://www.pmrloans.com/loan-officers/page/4/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Connor-McCormick-e1755814118881-300x300.jpg"
+    },
+    {
+      "id": "1404060",
+      "name": "John Basso",
+      "title": "Loan Officer",
+      "nmls": "1404060",
+      "phone": "(704) 728-4785",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/John-Basso-e1755714653418-300x300.png"
+    },
+    {
+      "id": "110030",
+      "name": "Jeff Brunner",
+      "title": "Branch Manager",
+      "nmls": "110030",
+      "phone": "(704) 999-8023",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Jeff-Brunner-e1755649380232-300x300.jpg"
+    },
+    {
+      "id": "69385",
+      "name": "Ben Larrick",
+      "title": "Branch Manager",
+      "nmls": "69385",
+      "phone": "(704) 804-6485",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Ben-Larrick-copy-e1755557829718-300x300.jpg"
+    },
+    {
+      "id": "1739526",
+      "name": "Mike Webb",
+      "title": "Branch Manager",
+      "nmls": "1739526",
+      "phone": "(706) 239-1542",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Mike-Webb-300x300.png"
+    },
+    {
+      "id": "2469198",
+      "name": "Scott Bearson",
+      "title": "Loan Officer",
+      "nmls": "2469198",
+      "phone": "(320) 760-1092",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/5140GF4x5-1-300x263.jpg"
+    },
+    {
+      "id": "2516796",
+      "name": "Tory Criddle",
+      "title": "Loan Officer",
+      "nmls": "2516796",
+      "phone": "(208) 716-9474",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Tory-Troy-Criddle-e1755823668204-300x300.jpg"
+    },
+    {
+      "id": "1244840",
+      "name": "Amanda Lopez",
+      "title": "Loan Officer",
+      "nmls": "1244840",
+      "phone": "(602) 618-2268",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/08/Amanda-Lopez-e1754760739503-300x300.jpg"
+    },
+    {
+      "id": "2290711",
+      "name": "Lexi Smith",
+      "title": "Loan Officer",
+      "nmls": "2290711",
+      "phone": "(727) 310-9575",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/07/Lexi-Smith-e1753826781420-300x300.jpg"
+    },
+    {
+      "id": "2448856",
+      "name": "Heather Vezzetti",
+      "title": "Loan Officer",
+      "nmls": "2448856",
+      "phone": "(253) 640-3421",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/07/Heather-V-2025-copy-e1753217684124-300x300.jpg"
+    },
+    {
+      "id": "75328",
+      "name": "Jonathan Matich",
+      "title": "Branch Manager",
+      "nmls": "75328",
+      "phone": "(206) 255-5777",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/06/Jonathan-Matich-2025-e1749682397283-300x300.jpg"
+    },
+    {
+      "id": "374683",
+      "name": "Jack Shull",
+      "title": "Branch Manager",
+      "nmls": "374683",
+      "phone": "(210) 215-6644",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/06/Jack-Shull_ai-e1749664528915-300x300.jpg"
+    },
+    {
+      "id": "2013386",
+      "name": "Sandi Parkhurst",
+      "title": "Loan Officer",
+      "nmls": "2013386",
+      "phone": "(775) 815-4923",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/06/Sandi-Parkhurst-scaled-e1749253929262-300x300.jpg"
+    },
+    {
+      "id": "2295100",
+      "name": "Trish Gomes",
+      "title": "Loan Officer",
+      "nmls": "2295100",
+      "phone": "(208) 420-3069",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/06/Trish-G-copy-scaled-e1749252301920-300x300.jpg"
+    },
+    {
+      "id": "646059",
+      "name": "Erika Alonso",
+      "title": "Loan Officer",
+      "nmls": "646059",
+      "phone": "(208) 421-1275",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "1676237",
+      "name": "Rolando Almazan",
+      "title": "Loan Officer",
+      "nmls": "1676237",
+      "phone": "(706) 499-6516",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/06/Rolando-Almazan-scaled-e1749074322489-300x300.jpg"
+    },
+    {
+      "id": "1116876",
+      "name": "Tim Haskins",
+      "title": "Sales Manager",
+      "nmls": "1116876",
+      "phone": "(661) 992-7005",
+      "source": "https://www.pmrloans.com/loan-officers/page/5/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/06/Tim-Haskins-headshot-ai-scaled-e1748901492443-300x300.jpg"
+    },
+    {
+      "id": "2463515",
+      "name": "Keri Simpson",
+      "title": "Loan Officer",
+      "nmls": "2463515",
+      "phone": "(208) 869-6658",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Keri-Simpson-300x300.png"
+    },
+    {
+      "id": "2039467",
+      "name": "Marcelo Riderelli",
+      "title": "Loan Officer",
+      "nmls": "2039467",
+      "phone": "(702) 234-6151",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Marcelo-Riderelli-Headshot-rotated-e1747956732748-300x300.jpg"
+    },
+    {
+      "id": "85637",
+      "name": "Carolyn Phillips",
+      "title": "Loan Officer",
+      "nmls": "85637",
+      "phone": "(864) 915-9652",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Carolyn-Phillips-scaled-e1747172061848-300x300.jpg"
+    },
+    {
+      "id": "71982",
+      "name": "Jill Blume",
+      "title": "Branch Manager",
+      "nmls": "71982",
+      "phone": "(864) 313-2361",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Jill-Blume-scaled-e1747076439931-300x300.jpg"
+    },
+    {
+      "id": "1181505",
+      "name": "Stacie Ochoa",
+      "title": "Regional Operations Manager",
+      "nmls": "1181505",
+      "phone": "(817) 991-0142",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Staff",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/03/Portrait_Placeholder-300x300.png"
+    },
+    {
+      "id": "1392184",
+      "name": "Pedro Ortiz",
+      "title": "Loan Officer",
+      "nmls": "1392184",
+      "phone": "(970) 433-3013",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Pedro-Ortiz-e1767658772685-300x300.jpg"
+    },
+    {
+      "id": "2226657",
+      "name": "Joe Dillard",
+      "title": "Loan Officer",
+      "nmls": "2226657",
+      "phone": "(713) 201-3305",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Joe-Dillard-scaled-e1746639854995-300x300.jpeg"
+    },
+    {
+      "id": "2699552",
+      "name": "Elise Dillard",
+      "title": "Loan Officer",
+      "nmls": "2699552",
+      "phone": "(281) 222-2499",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/05/Elise-Dillard-e1746484359983-300x300.jpg"
+    },
+    {
+      "id": "991783",
+      "name": "Cori Keithley",
+      "title": "Loan Officer",
+      "nmls": "991783",
+      "phone": "(512) 965-6220",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/04/Cori-Keithley-e1745445208117-300x300.jpg"
+    },
+    {
+      "id": "474274",
+      "name": "Kathryn Holbrooks",
+      "title": "Branch Manager",
+      "nmls": "474274",
+      "phone": "(864) 844-5008",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Kathryn-holbrooks-e1777398034210-300x300.png"
+    },
+    {
+      "id": "2665760",
+      "name": "Jordon Vernau",
+      "title": "Loan Officer",
+      "nmls": "2665760",
+      "phone": "(530) 321-1731",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/04/Jordon-Vernau-300x300.png"
+    },
+    {
+      "id": "328363",
+      "name": "Ron Ireland",
+      "title": "Loan Officer",
+      "nmls": "328363",
+      "phone": "(816) 550-5374",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/04/Ron-Ireland-scaled-e1743794365184-300x300.jpg"
+    },
+    {
+      "id": "2666268",
+      "name": "Connor Escobar",
+      "title": "Loan Officer",
+      "nmls": "2666268",
+      "phone": "(408) 500-5805",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Connor-Escobar-Headshot-scaled-e1747694720857-300x300.jpg"
+    },
+    {
+      "id": "181184",
+      "name": "Stephanie Rosemark-Pezzati",
+      "title": "Loan Officer",
+      "nmls": "181184",
+      "phone": "(775) 856-9888",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Stephanie-Rosemark-Pezzati-scaled-e1740690267176-300x300.jpg"
+    },
+    {
+      "id": "546486",
+      "name": "Scott Muckerheide",
+      "title": "Branch Manager",
+      "nmls": "546486",
+      "phone": "(812) 369-8200",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Scott-Muckerheide-scaled-e1740258146527-300x300.jpg"
+    },
+    {
+      "id": "1702477",
+      "name": "Myles Anderton",
+      "title": "Loan Officer",
+      "nmls": "1702477",
+      "phone": "(435) 225-9805",
+      "source": "https://www.pmrloans.com/loan-officers/page/6/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Myles-Anderton-scaled-e1740254580613-300x300.jpeg"
+    },
+    {
+      "id": "2164157",
+      "name": "Bree Rodgers",
+      "title": "Loan Officer",
+      "nmls": "2164157",
+      "phone": "(662) 507-8003",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Bree-Rdogers-2-e1740251763911-300x300.jpg"
+    },
+    {
+      "id": "115631",
+      "name": "Rich Hall",
+      "title": "Loan Officer",
+      "nmls": "115631",
+      "phone": "(425) 681-6184",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Rich-Hall-scaled-e1740248684177-300x300.jpg"
+    },
+    {
+      "id": "2384214",
+      "name": "Anna Hayner",
+      "title": "Loan Officer",
+      "nmls": "2384214",
+      "phone": "(253) 888-6050",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Anna-Hayner-2025-e1740016235816-300x300.png"
+    },
+    {
+      "id": "2522936",
+      "name": "Mitchell Hensley",
+      "title": "Loan Officer",
+      "nmls": "2522936",
+      "phone": "(208) 697-7147",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Mitchell-Hensley-e1740265210533-300x300.jpg"
+    },
+    {
+      "id": "478517",
+      "name": "Loni Reginato",
+      "title": "Branch Manager",
+      "nmls": "478517",
+      "phone": "(530) 227-5664",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/274784940_4866149356809969_8247244796628994476_n-300x300.jpg"
+    },
+    {
+      "id": "225138",
+      "name": "Chris Fraire",
+      "title": "Loan Officer",
+      "nmls": "225138",
+      "phone": "(702) 283-3874",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Chris-Fraire-e1745873843330-300x300.png"
+    },
+    {
+      "id": "311025",
+      "name": "Lane Biglieri",
+      "title": "Loan Officer",
+      "nmls": "311025",
+      "phone": "(775) 830-9192",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Lane-Biglieri-copy-e1745954639313-300x300.jpg"
+    },
+    {
+      "id": "2010025",
+      "name": "Jason Fraley",
+      "title": "Loan Officer",
+      "nmls": "2010025",
+      "phone": "(775) 537-7234",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Possible-Headshot-1-scaled-e1744819621910-300x300.jpg"
+    },
+    {
+      "id": "1519818",
+      "name": "Lindsey Martin",
+      "title": "Loan Officer",
+      "nmls": "1519818",
+      "phone": "(530) 351-3362",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/lindesy1-1.png"
+    },
+    {
+      "id": "229161",
+      "name": "Cheryl Holmes",
+      "title": "Branch Manager",
+      "nmls": "229161",
+      "phone": "(530) 260-0639",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/02/Cheryl-Holmes-scaled-e1738806399962-300x300.jpg"
+    },
+    {
+      "id": "252921",
+      "name": "Karen Rice",
+      "title": "Loan Officer",
+      "nmls": "252921",
+      "phone": "(775) 742-9631",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Karen-Rice-300x300.jpg"
+    },
+    {
+      "id": "2512099",
+      "name": "Rebecca Jo Lea",
+      "title": "Loan Officer",
+      "nmls": "2512099",
+      "phone": "(775) 846-1937",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Rebecca-Wittmayer-e1738289887605-300x300.png"
+    },
+    {
+      "id": "1740861",
+      "name": "Stephanie Young",
+      "title": "Loan Officer",
+      "nmls": "1740861",
+      "phone": "(775) 220-9040",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Stephanie-Young-e1738288906763-300x300.jpeg"
+    },
+    {
+      "id": "376104",
+      "name": "Robert Naylor",
+      "title": "Loan Officer",
+      "nmls": "376104",
+      "phone": "(775) 742-8147",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Robert-Naylor-e1746466772950-300x300.jpg"
+    },
+    {
+      "id": "1807688",
+      "name": "Tracy Lent",
+      "title": "Loan Officer",
+      "nmls": "1807688",
+      "phone": "(702) 232-1990",
+      "source": "https://www.pmrloans.com/loan-officers/page/7/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Tracy-Lent-pic-e1743118279459-300x300.jpg"
+    },
+    {
+      "id": "373805",
+      "name": "Pamela Hewitt",
+      "title": "Loan Officer",
+      "nmls": "373805",
+      "phone": "(702) 376-1669",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "350361",
+      "name": "Abbie Fleming",
+      "title": "Loan Officer",
+      "nmls": "350361",
+      "phone": "(808) 227-7600",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Abbie-Fleming-e1738193435522-300x300.jpg"
+    },
+    {
+      "id": "368383",
+      "name": "Steve Mayer",
+      "title": "Loan Officer",
+      "nmls": "368383",
+      "phone": "(702) 596-3926",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Steve-Mayer-300x300.png"
+    },
+    {
+      "id": "252940",
+      "name": "Griselda Morga",
+      "title": "Loan Officer",
+      "nmls": "252940",
+      "phone": "(702) 303-4303",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/0-Portrait_Placeholder-300x300.png"
+    },
+    {
+      "id": "252883",
+      "name": "Lisa Czajka, CDLP",
+      "title": "Loan Officer",
+      "nmls": "252883",
+      "phone": "(702) 499-3081",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Lisa-Czajka-e1738111615983-300x300.jpg"
+    },
+    {
+      "id": "215150",
+      "name": "Kevin Anderson",
+      "title": "Branch Manager",
+      "nmls": "215150",
+      "phone": "(775) 560-5252",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Kevin-Anderson2-e1738354399721-300x300.jpeg"
+    },
+    {
+      "id": "2240923",
+      "name": "Sandra Camargo",
+      "title": "Loan Officer",
+      "nmls": "2240923",
+      "phone": "(949) 545-4061",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Team-Camargo-200x300.jpg"
+    },
+    {
+      "id": "252961",
+      "name": "Kim Petrie",
+      "title": "Branch Manager",
+      "nmls": "252961",
+      "phone": "(775) 830-0955",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Kim-Petrie-scaled-e1738009824564-300x300.jpg"
+    },
+    {
+      "id": "266680",
+      "name": "Eloisa Phelps",
+      "title": "Loan Officer",
+      "nmls": "266680",
+      "phone": "(775) 772-7647",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Eloisa-Phelps-e1737761146890-300x300.jpg"
+    },
+    {
+      "id": "224359",
+      "name": "Heather Battaglia",
+      "title": "Branch Manager",
+      "nmls": "224359",
+      "phone": "(702) 491-3566",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Screenshot-2026-08-03-094242-265x300.png"
+    },
+    {
+      "id": "363108",
+      "name": "Linda Rivera",
+      "title": "Loan Officer",
+      "nmls": "363108",
+      "phone": "(702) 592-2510",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Linda-Rivera-e1743118744528-300x300.jpg"
+    },
+    {
+      "id": "611761",
+      "name": "Dean Lucich",
+      "title": "Loan Officer",
+      "nmls": "611761",
+      "phone": "(775) 846-4646",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Dean-Lucich-1-e1737746844110-300x300.jpg"
+    },
+    {
+      "id": "1138378",
+      "name": "Sharon Virk",
+      "title": "Loan Officer",
+      "nmls": "1138378",
+      "phone": "(559) 348-8474",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "363313",
+      "name": "Craig Koehm",
+      "title": "Loan Officer",
+      "nmls": "363313",
+      "phone": "(702) 528-5363",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/Craig-Koehm-copy-1-e1737670724110-300x300.jpg"
+    },
+    {
+      "id": "219839",
+      "name": "Bari Fraire",
+      "title": "Regional Manager",
+      "nmls": "219839",
+      "phone": "(702) 283-2274",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Division leaders",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/86864288_10222284447610175_9118847814363774976_n-1-300x300.jpg"
+    },
+    {
+      "id": "298166",
+      "name": "Sarvelia Diaz",
+      "title": "Loan Officer",
+      "nmls": "298166",
+      "phone": "(915) 867-5171",
+      "source": "https://www.pmrloans.com/loan-officers/page/8/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2025/01/VC_SarelviaDiazMortgage_SessionProofs-6702-e1736986069218-300x300.jpg"
+    },
+    {
+      "id": "231397",
+      "name": "Brian NeVille",
+      "title": "Division Manager",
+      "nmls": "231397",
+      "phone": "(208) 447-9803",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Division leaders",
+      "photo": "/team/brian-neville.png"
+    },
+    {
+      "id": "62738",
+      "name": "Neil Jensen",
+      "title": "Loan Officer",
+      "nmls": "62738",
+      "phone": "(503) 329-5622",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "254704",
+      "name": "Connie Johnson",
+      "title": "Loan Officer",
+      "nmls": "254704",
+      "phone": "(423) 316-4176",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "1377430",
+      "name": "Paul Keane",
+      "title": "Branch Manager",
+      "nmls": "1377430",
+      "phone": "(817) 798-8811",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Branch managers",
+      "photo": ""
+    },
+    {
+      "id": "2541937",
+      "name": "Marcus Chapa",
+      "title": "Loan Officer",
+      "nmls": "2541937",
+      "phone": "(208) 410-5157",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/11/Marcus-Chapa-scaled-e1730934351771-300x300.jpg"
+    },
+    {
+      "id": "1417151",
+      "name": "Taylor Chapa",
+      "title": "Loan Officer",
+      "nmls": "1417151",
+      "phone": "(208) 430-4260",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/11/Taylor-Chapa-scaled-e1730933863356-300x300.jpg"
+    },
+    {
+      "id": "1380241",
+      "name": "Christy Reddish",
+      "title": "Processing Manager",
+      "nmls": "1380241",
+      "phone": "(770) 364-3309",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Staff",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/10/Christy-Reddish-copy-e1729631023576-300x300.jpg"
+    },
+    {
+      "id": "121402",
+      "name": "Trudy Moore",
+      "title": "Loan Officer",
+      "nmls": "121402",
+      "phone": "(206) 612-5034",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "487456",
+      "name": "Eric Halberg",
+      "title": "Loan Officer",
+      "nmls": "487456",
+      "phone": "(503) 805-4419",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "2558320",
+      "name": "Wanda Applon",
+      "title": "Loan Officer",
+      "nmls": "2558320",
+      "phone": "(972) 523-1608",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "1496642",
+      "name": "Earnest Jackson Jr.",
+      "title": "Branch Manager",
+      "nmls": "1496642",
+      "phone": "(817) 217-4436",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Branch managers",
+      "photo": ""
+    },
+    {
+      "id": "943884",
+      "name": "Taylor Leathers",
+      "title": "Loan Officer",
+      "nmls": "943884",
+      "phone": "(775) 848-2219",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Taylor-Leathers-2025-e1757372134288-300x300.jpg"
+    },
+    {
+      "id": "1734162",
+      "name": "Kristi Graham Scott",
+      "title": "Branch Manager",
+      "nmls": "1734162",
+      "phone": "(205) 516-6310",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Kristi-Graham-Scott-e1722615335993-300x300.jpg"
+    },
+    {
+      "id": "1129252",
+      "name": "Sean Faciane",
+      "title": "Production Partner",
+      "nmls": "1129252",
+      "phone": "(205) 410-9973",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Staff",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Sean-Faciane-e1722615545585-300x300.jpg"
+    },
+    {
+      "id": "2315527",
+      "name": "Reyna Dorris",
+      "title": "Loan Officer",
+      "nmls": "2315527",
+      "phone": "(901) 491-9485",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Reyna-Dorris-headshot-e1773103567143-300x300.png"
+    },
+    {
+      "id": "1681915",
+      "name": "Freddie Rodriguez",
+      "title": "Loan Officer",
+      "nmls": "1681915",
+      "phone": "(413) 221-2644",
+      "source": "https://www.pmrloans.com/loan-officers/page/9/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Freddie-Rodriguez-2-copy-e1722977487950-300x300.jpg"
+    },
+    {
+      "id": "2338219",
+      "name": "Keahna Del Curto",
+      "title": "Loan Officer",
+      "nmls": "2338219",
+      "phone": "(831) 537-7389",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Keahna-Headshot-1-e1721862404699-300x300.jpg"
+    },
+    {
+      "id": "1185646",
+      "name": "Nicole Marcus",
+      "title": "Loan Officer",
+      "nmls": "1185646",
+      "phone": "(831) 245-5843",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/07/Nicole-Marcus-e1725389019601-300x300.jpg"
+    },
+    {
+      "id": "148628",
+      "name": "Chandra Anderson",
+      "title": "Loan Officer",
+      "nmls": "148628",
+      "phone": "(404) 790-5110",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Chandra-Anderson-scaled-e1720651137542-300x300.jpg"
+    },
+    {
+      "id": "221291",
+      "name": "Christian Disney",
+      "title": "Loan Officer",
+      "nmls": "221291",
+      "phone": "(503) 724-1706",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Christian-Disney-sq.png"
+    },
+    {
+      "id": "1416327",
+      "name": "Crystal Gilbert",
+      "title": "Loan Officer",
+      "nmls": "1416327",
+      "phone": "(208) 949-6046",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/07/Screenshot-2025-12-30-111229-e1767121992465-300x300.png"
+    },
+    {
+      "id": "448611",
+      "name": "Becca Rupe",
+      "title": "Branch Manager",
+      "nmls": "448611",
+      "phone": "(901) 734-8080",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Becca-Rupe-scaled-e1719954106945-300x300.jpeg"
+    },
+    {
+      "id": "2322812",
+      "name": "Ashleigh Cozzens",
+      "title": "Loan Officer",
+      "nmls": "2322812",
+      "phone": "(208) 684-7568",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/ashleigh-scaled-e1719507313364-300x300.jpg"
+    },
+    {
+      "id": "2314567",
+      "name": "Dakota Bales",
+      "title": "Licensed Loan Partner",
+      "nmls": "2314567",
+      "phone": "(208) 595-8809",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Staff",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/dakota-300x300.jpg"
+    },
+    {
+      "id": "66777",
+      "name": "Scott Koski",
+      "title": "Loan Officer",
+      "nmls": "66777",
+      "phone": "(503) 858-4767",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Scott-Koski-e1715974381321-300x300.jpg"
+    },
+    {
+      "id": "800130",
+      "name": "Kyle Torgerson",
+      "title": "Loan Officer",
+      "nmls": "800130",
+      "phone": "(435) 229-4316",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/05/KyleTorgerson1-300x300.jpg"
+    },
+    {
+      "id": "149563",
+      "name": "Dave Loescher",
+      "title": "Branch Manager",
+      "nmls": "149563",
+      "phone": "(928) 853-2231",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Profile-Pic-scaled-e1715710550626-300x300.jpg"
+    },
+    {
+      "id": "188352",
+      "name": "Lisa Soito",
+      "title": "Loan Officer",
+      "nmls": "188352",
+      "phone": "(208) 870-4622",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Lisa-Soito-e1715111176894-300x300.jpg"
+    },
+    {
+      "id": "16782",
+      "name": "Darlynn Viner",
+      "title": "Loan Officer",
+      "nmls": "16782",
+      "phone": "(413) 770-7210",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Darlynn-Viner-scaled-e1714776683246-300x300.jpg"
+    },
+    {
+      "id": "886074",
+      "name": "Kate Crogan",
+      "title": "Loan Officer",
+      "nmls": "886074",
+      "phone": "(413) 313-5479",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Kate-Crogan-e1713828343758-300x300.jpg"
+    },
+    {
+      "id": "1228198",
+      "name": "Crystal Smith",
+      "title": "Loan Officer",
+      "nmls": "1228198",
+      "phone": "(206) 853-8778",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Crystal-Smith.jpg"
+    },
+    {
+      "id": "2079308",
+      "name": "Jonathon Steele",
+      "title": "Loan Officer",
+      "nmls": "2079308",
+      "phone": "(239) 671-3448",
+      "source": "https://www.pmrloans.com/loan-officers/page/10/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2026/04/Jonathon-Steele-e1777397881363-300x300.png"
+    },
+    {
+      "id": "102048",
+      "name": "Paul Giannini",
+      "title": "Loan Officer",
+      "nmls": "102048",
+      "phone": "(503) 449-5108",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Paul-Giannini-e1710964657796-300x300.png"
+    },
+    {
+      "id": "1179416",
+      "name": "Alma Worley",
+      "title": "Loan Officer",
+      "nmls": "1179416",
+      "phone": "(925) 642-4555",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Alma-Worley-300x300.jpg"
+    },
+    {
+      "id": "289245",
+      "name": "Michelle Shaman",
+      "title": "Branch Manager",
+      "nmls": "289245",
+      "phone": "(925) 549-0803",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": ""
+    },
+    {
+      "id": "272076",
+      "name": "Gregg Driggs",
+      "title": "Branch Manager",
+      "nmls": "272076",
+      "phone": "(435) 288-6061",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/02/Gregg-Driggs-2026-e1776106253170-300x300.png"
+    },
+    {
+      "id": "440356",
+      "name": "David Nishimura",
+      "title": "Branch Manager",
+      "nmls": "440356",
+      "phone": "(503) 730-4206",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/02/IMG_0930-scaled-e1757026604238-300x300.jpeg"
+    },
+    {
+      "id": "260615",
+      "name": "Darlene Walczyk",
+      "title": "Loan Officer",
+      "nmls": "260615",
+      "phone": "(503) 407-1685",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/02/Darlene_ai-e1748450203709-300x300.png"
+    },
+    {
+      "id": "5210",
+      "name": "Mark Feller",
+      "title": "Branch Manager",
+      "nmls": "5210",
+      "phone": "(503) 939-3773",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Mark-Feller-e1717189732699-300x300.jpg"
+    },
+    {
+      "id": "5212",
+      "name": "Paul Marrs",
+      "title": "Loan Officer",
+      "nmls": "5212",
+      "phone": "(503) 781-2114",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Paul-Marrs-300x300.jpg"
+    },
+    {
+      "id": "403937",
+      "name": "William Chu",
+      "title": "Loan Officer",
+      "nmls": "403937",
+      "phone": "(708) 203-2258",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/William-Chu-scaled-e1706571365974-300x300.jpg"
+    },
+    {
+      "id": "2298781",
+      "name": "Shawna Merritt",
+      "title": "Loan Officer",
+      "nmls": "2298781",
+      "phone": "(603) 918-0047",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/01/shawna-merrit-copy-e1767115245976-300x300.jpg"
+    },
+    {
+      "id": "228862",
+      "name": "Patti Hale",
+      "title": "Branch Manager",
+      "nmls": "228862",
+      "phone": "(912) 266-4205",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/01/Headshot-300x300.png"
+    },
+    {
+      "id": "1697510",
+      "name": "Jonah Abraham",
+      "title": "Loan Officer",
+      "nmls": "1697510",
+      "phone": "(678) 313-3838",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Jonah-Abraham-e1703717867772-300x300.jpg"
+    },
+    {
+      "id": "389504",
+      "name": "Emelie Maybrook",
+      "title": "Branch Manager",
+      "nmls": "389504",
+      "phone": "(312) 772-6850",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Emelie-Maybrook-scaled-e1701807029680-300x300.jpg"
+    },
+    {
+      "id": "164300",
+      "name": "Brenda Jenkins",
+      "title": "Branch Manager",
+      "nmls": "164300",
+      "phone": "(615) 506-4535",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Portrait_Placeholder-4-300x300.png"
+    },
+    {
+      "id": "2526240",
+      "name": "Jenny Lowry",
+      "title": "Loan Officer",
+      "nmls": "2526240",
+      "phone": "(208) 631-9074",
+      "source": "https://www.pmrloans.com/loan-officers/page/11/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Jenny-Lowry-e1700076027532-300x300.png"
+    },
+    {
+      "id": "1765138",
+      "name": "Mark Day",
+      "title": "Loan Officer",
+      "nmls": "1765138",
+      "phone": "(509) 759-0142",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Mark-Day-scaled-e1699044035792-300x300.jpg"
+    },
+    {
+      "id": "273206",
+      "name": "Jack Kirk Sr",
+      "title": "Loan Officer",
+      "nmls": "273206",
+      "phone": "(831) 637-0344",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Portrait_Placeholder-4-300x300.png"
+    },
+    {
+      "id": "131663",
+      "name": "Tim Monaghan",
+      "title": "Loan Officer",
+      "nmls": "131663",
+      "phone": "(253) 301-8167",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/10/headshot-10-scaled-e1738893754393-300x300.jpg"
+    },
+    {
+      "id": "487511",
+      "name": "Irina Pavliy",
+      "title": "Loan Officer",
+      "nmls": "487511",
+      "phone": "(360) 907-5176",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/09/Irina-Pic-2026-front-e1769800598892-300x300.png"
+    },
+    {
+      "id": "1805249",
+      "name": "Amanda Kelly",
+      "title": "Loan Officer",
+      "nmls": "1805249",
+      "phone": "(208) 544-8974",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/09/Amanda-Kelly-New-1-300x300.jpg"
+    },
+    {
+      "id": "208435",
+      "name": "Tonya Hopper",
+      "title": "Loan Officer",
+      "nmls": "208435",
+      "phone": "(706) 491-5401",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Tonya-Hopper-scaled-e1695156589318-300x300.jpg"
+    },
+    {
+      "id": "698980",
+      "name": "Clay Cantrell",
+      "title": "Division Production Manager",
+      "nmls": "698980",
+      "phone": "(706) 499-7094",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Division leaders",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Clay-Cantrell-300x300.jpg"
+    },
+    {
+      "id": "2510630",
+      "name": "Dawn Dilworth",
+      "title": "Branch Manager",
+      "nmls": "2510630",
+      "phone": "(423) 325-4318",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/09/FallHeadshot_Dawn-Dilworth-e1737065009762-300x300.jpg"
+    },
+    {
+      "id": "340560",
+      "name": "Tyler Eaton",
+      "title": "Regional Manager",
+      "nmls": "340560",
+      "phone": "(801) 232-4730",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Division leaders",
+      "photo": ""
+    },
+    {
+      "id": "202189",
+      "name": "Corey Cantrell",
+      "title": "Division Manager",
+      "nmls": "202189",
+      "phone": "(706) 499-5600",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Division leaders",
+      "photo": "/team/corey-cantrell.png"
+    },
+    {
+      "id": "2345516",
+      "name": "Kyle Wilder",
+      "title": "Loan Officer",
+      "nmls": "2345516",
+      "phone": "(208) 661-2001",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Kyle-Wilder-Headshot-scaled-e1689113228515-300x300.jpeg"
+    },
+    {
+      "id": "2464964",
+      "name": "Tad Job",
+      "title": "Loan Officer",
+      "nmls": "2464964",
+      "phone": "(208) 541-7753",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Tad-e1724450818391-300x300.jpg"
+    },
+    {
+      "id": "2395849",
+      "name": "Julie Asher",
+      "title": "Loan Officer",
+      "nmls": "2395849",
+      "phone": "(509) 481-8090",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Julie-Asher-e1687293830355-300x300.jpg"
+    },
+    {
+      "id": "1726215",
+      "name": "Glen Pacheco",
+      "title": "Loan Officer",
+      "nmls": "1726215",
+      "phone": "(408) 205-5851",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Glen-Pacheco-Email-Portrait-scaled-e1712179369510-300x300.jpg"
+    },
+    {
+      "id": "1443529",
+      "name": "Sabrina Nelke",
+      "title": "Loan Officer - Sales Manager",
+      "nmls": "1443529",
+      "phone": "(208) 277-8627",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/06/Sabrina-Nelke-2025-1-scaled-e1760652368578-300x300.jpg"
+    },
+    {
+      "id": "2191190",
+      "name": "William Shearin",
+      "title": "Loan Officer",
+      "nmls": "2191190",
+      "phone": "(509) 560-8285",
+      "source": "https://www.pmrloans.com/loan-officers/page/12/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/William-Shearin-scaled-e1681329098561-300x300.jpg"
+    },
+    {
+      "id": "1507327",
+      "name": "Mirca Moreno",
+      "title": "Loan Officer",
+      "nmls": "1507327",
+      "phone": "(559) 824-7834",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Mirca-Moreno-scaled-e1674161355944-300x300.jpg"
+    },
+    {
+      "id": "203949",
+      "name": "Trina Kingery",
+      "title": "Loan Officer",
+      "nmls": "203949",
+      "phone": "(863) 698-0073",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/01/Team-Trina-Profile-image-with-Blue-shirt-300x300.png"
+    },
+    {
+      "id": "1415635",
+      "name": "Amanda Dunham",
+      "title": "Branch Manager",
+      "nmls": "1415635",
+      "phone": "(253) 381-8487",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2023/01/Amanda-Head-shot-e1748035881526-300x300.png"
+    },
+    {
+      "id": "77337",
+      "name": "Rebecca Wisner",
+      "title": "Branch Manager",
+      "nmls": "77337",
+      "phone": "(206) 755-5626",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2022/10/Rebecca-Wisner-2025-scaled-e1753316570110-300x300.jpg"
+    },
+    {
+      "id": "417990",
+      "name": "Cristi Moore",
+      "title": "Branch Manager",
+      "nmls": "417990",
+      "phone": "(541) 647-4656",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2022/09/headshot-blue-shirt-copy-1.jpg"
+    },
+    {
+      "id": "522577",
+      "name": "Susie Manweller",
+      "title": "Loan Officer",
+      "nmls": "522577",
+      "phone": "(208) 713-7850",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/SusieManweller-e1661971909335-300x300.png"
+    },
+    {
+      "id": "1063343",
+      "name": "Jess Davies",
+      "title": "Branch Manager",
+      "nmls": "1063343",
+      "phone": "(208) 296-6637",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Jess.jpg"
+    },
+    {
+      "id": "1981587",
+      "name": "Oliver AhMu",
+      "title": "Branch Manager",
+      "nmls": "1981587",
+      "phone": "(208) 296-6637",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Oliver-AhMu-300x300.png"
+    },
+    {
+      "id": "827889",
+      "name": "Kristin Flora",
+      "title": "Loan Officer",
+      "nmls": "827889",
+      "phone": "(559) 972 8635",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Kristin-Flora.WEB_-300x300.png"
+    },
+    {
+      "id": "104060",
+      "name": "Doug Schreifels",
+      "title": "Branch Manager",
+      "nmls": "104060",
+      "phone": "(425) 233-1391",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Doug-Schreifels.jpg"
+    },
+    {
+      "id": "489007",
+      "name": "John Neil",
+      "title": "Loan Officer",
+      "nmls": "489007",
+      "phone": "(208) 629-1424",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Portrait_Placeholder-1-300x300.png"
+    },
+    {
+      "id": "1865199",
+      "name": "David Gulbransen",
+      "title": "Loan Officer",
+      "nmls": "1865199",
+      "phone": "(530) 520-9804",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/David-Gulbransen-for-Web-300x300.jpg"
+    },
+    {
+      "id": "254413",
+      "name": "Rob Nino",
+      "title": "Branch Manager",
+      "nmls": "254413",
+      "phone": "(831) 801-2854",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Rob-Nino.jpg"
+    },
+    {
+      "id": "1857402",
+      "name": "Amy Wolfe",
+      "title": "Loan Officer",
+      "nmls": "1857402",
+      "phone": "(208) 850-7386",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/amy-h-1.jpg"
+    },
+    {
+      "id": "247886",
+      "name": "Jack Kirk",
+      "title": "Branch Manager",
+      "nmls": "247886",
+      "phone": "(831) 801-6088",
+      "source": "https://www.pmrloans.com/loan-officers/page/13/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Jack-Kirk.jpg"
+    },
+    {
+      "id": "1864073",
+      "name": "Ronnie Esparza",
+      "title": "Loan Officer",
+      "nmls": "1864073",
+      "phone": "(831) 320-9328",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Ronnie-Esparza-small.jpg"
+    },
+    {
+      "id": "1301591",
+      "name": "Cassandra Farnese",
+      "title": "Loan Officer",
+      "nmls": "1301591",
+      "phone": "(831) 320-6334",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "214852",
+      "name": "Gina Grant",
+      "title": "Loan Officer",
+      "nmls": "214852",
+      "phone": "(831) 524-3494",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Gina-Grant-for-Web-1.jpg"
+    },
+    {
+      "id": "250361",
+      "name": "Minnie Bondoc",
+      "title": "Loan Officer",
+      "nmls": "250361",
+      "phone": "(408) 230-7446",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Minnie-Bondoc.jpg"
+    },
+    {
+      "id": "389926",
+      "name": "Lisa Cardoza",
+      "title": "Loan Officer",
+      "nmls": "389926",
+      "phone": "(831) 227-9399",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Lisa-Cardoza.jpg"
+    },
+    {
+      "id": "38490",
+      "name": "Team Mandi",
+      "title": "Mortgage Professionals",
+      "nmls": "38490",
+      "phone": "(208) 250-2775",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2021/10/DSC_8815_websize-e1753227881820-300x300.jpg"
+    },
+    {
+      "id": "250259",
+      "name": "Jerry Shumard",
+      "title": "Loan Officer",
+      "nmls": "250259",
+      "phone": "(408) 857-6200",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Jerry-Shumard-1-scaled-e1678297834175-300x300.jpg"
+    },
+    {
+      "id": "326517",
+      "name": "Vince Garcia",
+      "title": "Loan Officer",
+      "nmls": "326517",
+      "phone": "(831) 206-8203",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/vince.jpg"
+    },
+    {
+      "id": "186671",
+      "name": "Eddee Gallegos",
+      "title": "Loan Officer",
+      "nmls": "186671",
+      "phone": "(208) 420-0273",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Eddee-2.jpg"
+    },
+    {
+      "id": "1838459",
+      "name": "Jennifer Tucker",
+      "title": "Loan Officer",
+      "nmls": "1838459",
+      "phone": "(530) 521-0700",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Tucker.jpg"
+    },
+    {
+      "id": "1654380",
+      "name": "Anna Leija-Valdez",
+      "title": "Loan Officer",
+      "nmls": "1654380",
+      "phone": "(208) 358-5727",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Anna-web-e1706144000527-300x300.png"
+    },
+    {
+      "id": "650076",
+      "name": "Jimmy Schipani",
+      "title": "Loan Officer",
+      "nmls": "650076",
+      "phone": "(208) 891-3545",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Jimmy-Shipani-Web.jpg"
+    },
+    {
+      "id": "31056",
+      "name": "Terry Hamlin",
+      "title": "Loan Officer",
+      "nmls": "31056",
+      "phone": "(208) 573-5867",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Terry.jpg"
+    },
+    {
+      "id": "112386",
+      "name": "Tracy Goff",
+      "title": "Loan Officer",
+      "nmls": "112386",
+      "phone": "(208) 870-2929",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Trace.jpg"
+    },
+    {
+      "id": "1532651",
+      "name": "Brittney Essink",
+      "title": "Loan Partner",
+      "nmls": "1532651",
+      "phone": "(208) 863-3727",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Staff",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Brittney-Essink-Updated-WEB-300x300.png"
+    },
+    {
+      "id": "613585",
+      "name": "Veronica Tamayo",
+      "title": "Loan Partner",
+      "nmls": "613585",
+      "phone": "(208) 650-1498",
+      "source": "https://www.pmrloans.com/loan-officers/page/14/",
+      "category": "Staff",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/V-photo-2021-e1679962464417-300x300.jpg"
+    },
+    {
+      "id": "5208",
+      "name": "Greg Mirecki",
+      "title": "Executive Vice President",
+      "nmls": "5208",
+      "phone": "(503) 235-6789",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Leadership",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Greg-Mirecki.jpg"
+    },
+    {
+      "id": "1238633",
+      "name": "Zachary Hafen",
+      "title": "Loan Officer",
+      "nmls": "1238633",
+      "phone": "(509) 529-0800",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Zach-Hafren-for-Web.jpg"
+    },
+    {
+      "id": "1435739",
+      "name": "Chris Bruce",
+      "title": "Loan Officer",
+      "nmls": "1435739",
+      "phone": "(404) 433-8747",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "266590",
+      "name": "Iris Butler",
+      "title": "Branch Manager | Loan Officer",
+      "nmls": "266590",
+      "phone": "(541) 817-3860",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Iris-Butler.jpg"
+    },
+    {
+      "id": "1530233",
+      "name": "Kara Hamlin",
+      "title": "Loan Officer",
+      "nmls": "1530233",
+      "phone": "(208) 991-6715",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Kara-1.jpg"
+    },
+    {
+      "id": "1658229",
+      "name": "Team Lane",
+      "title": "Loan Officer",
+      "nmls": "1658229",
+      "phone": "(208) 949-0111",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Loan officers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2021/10/71_Lowrys-copy-1.jpg"
+    },
+    {
+      "id": "149554",
+      "name": "Brent White",
+      "title": "Branch Manager",
+      "nmls": "149554",
+      "phone": "(509) 522-2700",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Brent-White-for-Web.jpg"
+    },
+    {
+      "id": "5499",
+      "name": "Cliff Jaro",
+      "title": "Loan Officer",
+      "nmls": "5499",
+      "phone": "(208) 420-8591",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Loan officers",
+      "photo": ""
+    },
+    {
+      "id": "9752",
+      "name": "Curtis Mangus",
+      "title": "Branch Manager",
+      "nmls": "9752",
+      "phone": "(208) 412-3676",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2021/10/Curtis-1-scaled-e1744673334189-300x300.jpg"
+    },
+    {
+      "id": "351216",
+      "name": "Karen Lindgren",
+      "title": "Branch Manager",
+      "nmls": "351216",
+      "phone": "(218) 244-6390",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Karen-Lindgren-WEB-Updated-300x300.png"
+    },
+    {
+      "id": "5604",
+      "name": "Marety Jaro",
+      "title": "Branch Manager",
+      "nmls": "5604",
+      "phone": "(208) 716-1542",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2021/10/MJ-Single-e1724450717278-1-300x300.jpg"
+    },
+    {
+      "id": "42311",
+      "name": "Matt Riener",
+      "title": "Branch Manager",
+      "nmls": "42311",
+      "phone": "(509) 362-1453",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2021/10/Matt-Riener-2026-headshot-e1771376812375-300x300.jpg"
+    },
+    {
+      "id": "327268",
+      "name": "Shawn Parker",
+      "title": "Branch Manager",
+      "nmls": "327268",
+      "phone": "(816) 918-6278",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/Shawn-P-sq.png"
+    },
+    {
+      "id": "690783",
+      "name": "Susan Gordon",
+      "title": "Branch Manager",
+      "nmls": "690783",
+      "phone": "(808) 938-4664",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2021/10/Susan-Gordon-2-300x300.png"
+    },
+    {
+      "id": "1456505",
+      "name": "Jacy Pool",
+      "title": "Branch Manager",
+      "nmls": "1456505",
+      "phone": "(208) 308-9557",
+      "source": "https://www.pmrloans.com/loan-officers/page/15/",
+      "category": "Branch managers",
+      "photo": "https://www.pmrloans.com/wp-content/uploads/2024/08/jacy-new-300x300.jpg"
+    }
+  ]
+}

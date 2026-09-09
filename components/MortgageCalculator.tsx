@@ -49,7 +49,7 @@ export function MortgageCalculator() {
       <div className={styles.monthly} aria-live="polite" aria-atomic="true"><span>{money(estimate.principalAndInterest)}</span><span>/ month</span></div>
       <p className={styles.resultNote}>Taxes, homeowners insurance, mortgage insurance, and HOA fees are additional.</p>
       <dl className={styles.loanBreakdown}><div><dt>Home price</dt><dd>{money(input.price)}</dd></div><div><dt>Down payment</dt><dd>{money(estimate.downAmount)}</dd></div><div><dt>Loan amount</dt><dd>{money(estimate.loanAmount)}</dd></div><div><dt>Loan term</dt><dd>{input.termYears} years, fixed</dd></div></dl>
-      <a href="https://www.pmrloans.com/find-a-loan-officer/" className={styles.primary}>Let’s talk about your numbers <span aria-hidden="true">↗</span></a>
+      <a href="/find-a-loan-officer/" className={styles.primary}>Let’s talk about your numbers <span aria-hidden="true">↗</span></a>
       <p className={styles.calculatorDisclosure}>Illustrative estimate only. Not a loan offer, approval, or rate lock. Actual terms and eligibility vary.</p>
     </div>
   </div>;

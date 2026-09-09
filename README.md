@@ -5,6 +5,24 @@ https://trygenius.ai/home, using Premier's existing repository logo and home
 photograph. Company details and outbound customer-service links were checked
 against https://www.pmrloans.com/ on September 9, 2026.
 
+## Team directory
+
+`/team` has featured leadership, an expandable leadership gallery, and a searchable,
+paginated directory. Data lives in `data/team.json`; add real roster records there
+to extend it to the desired 250 loan officers, 50 branch managers, and five division
+leaders. Counts are derived from records, never padded to target totals. The
+initial public import contains 234 unique directory profiles and 21 leadership
+records, with overlap deduplicated when shown. Categories retain original job
+titles; the Division leaders filter groups production VPs and regional/division
+managers. Referral-partner records are excluded. Public directory entries may
+include named teams as well as individuals, so totals are labeled profiles.
+
+Names, NMLS identifiers, phone numbers, and available headshot URLs were imported
+from all 15 pages of Premier's public loan-officer directory on September 9, 2026.
+Public leadership titles take precedence over older repository titles. The full
+staff roster has not been provided, so `rosterComplete` remains false. Each record
+retains its source URL; missing or unavailable portraits fall back to initials.
+
 ## Development
 
 - `npm ci`
