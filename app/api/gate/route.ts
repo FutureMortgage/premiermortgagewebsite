@@ -1,15 +1,17 @@
 import { NextResponse } from "next/server";
-import { GATE_COOKIE, GATE_TOKEN, GATE_PASSWORD } from "@/lib/gate";
+import { GATE_COOKIE, gateToken, GATE_PASSWORD } from "@/lib/gate";
 
 export async function POST(req: Request) {
   const { password } = await req.json().catch(() => ({ password: "" }));
 
-  if (password !== GATE_PASSWORD) {
+  if (!GATE_PASSWORD || typeof password !== "string" || password !== GATE_PASSWORD) {
     return NextResponse.json({ ok: false }, { status: 401 });
   }
 
-  const res = NextResponse.json({ ok: true });
-  res.cookies.set(GATE_COOKIE, GATE_TOKEN, {
+  const token = await gateToken();
+  if (!token) return NextResponse.json({ ok: false }, { status: 503 });
+  const res = NextResponse.json({ ok: true }, { headers: { "Cache-Control": "no-store" } });
+  res.cookies.set(GATE_COOKIE, token, {
     httpOnly: true,
     sameSite: "lax",
     path: "/",

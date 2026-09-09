@@ -6,6 +6,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+throw new Error("Password-protected site requires the Next.js server. Static exports bypass authentication and are disabled. Use npm run build and npm run start with SITE_PASSWORD and SITE_GATE_SECRET configured.");
 const stagingParent = path.join(root, ".site-builds");
 await mkdir(stagingParent, { recursive: true });
 const staging = await mkdtemp(path.join(stagingParent, "preview-"));

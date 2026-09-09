@@ -1,18 +1,18 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { GATE_COOKIE, GATE_TOKEN } from "./lib/gate";
+import { GATE_COOKIE, gateToken } from "./lib/gate";
 
-export function middleware(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   // Always allow the gate page and the unlock endpoint through.
-  const publicPages = ["/", "/team", "/find-a-loan-officer", "/make-a-payment", "/our-mission", "/join-pmr", "/careers", "/job-opportunities", "/contact-us", "/privacy-policy", "/legal", "/state-licensing"];
-  if ([...publicPages, "/loan-officer-careers"].includes(pathname.replace(/\/$/, "") || "/") || pathname === "/gate" || pathname.startsWith("/api/gate")) {
+  if (pathname === "/gate" || pathname === "/api/gate") {
     return NextResponse.next();
   }
 
   // Unlocked?
-  if (req.cookies.get(GATE_COOKIE)?.value === GATE_TOKEN) {
+  const token = await gateToken();
+  if (token && req.cookies.get(GATE_COOKIE)?.value === token) {
     return NextResponse.next();
   }
 
@@ -23,8 +23,8 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  // Run on page routes only — skip Next internals and static assets.
+  // Gate pages, APIs and media; allow only framework assets and the gate logo.
   matcher: [
-    "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:png|jpg|jpeg|webp|svg|mp4|ico|css|js|woff2?|map)).*)",
+    "/((?!_next/static|_next/webpack-hmr|favicon.ico|premier-logo.png).*)",
   ],
 };

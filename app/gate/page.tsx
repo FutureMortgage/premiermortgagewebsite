@@ -19,7 +19,8 @@ export default function GatePage() {
     });
     if (res.ok) {
       const from = new URLSearchParams(window.location.search).get("from");
-      window.location.href = from && from.startsWith("/") ? from : "/";
+      const target = new URL(from || "/", window.location.origin);
+      window.location.href = target.origin === window.location.origin ? target.href : "/";
     } else {
       setError(true);
       setLoading(false);

@@ -11,10 +11,12 @@ type Person = typeof data.people[number];
 const PAGE_SIZE = 24;
 const categories = ["All people", "Loan officers", "Branch managers", "Division leaders", "Staff", "Leadership"];
 const normalize = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-const leadershipRank = (title: string) => title === "CEO" ? 0 : title === "President" ? 1 : title === "Chief Operating Officer" ? 2 : title === "Chief Innovation Officer" ? 3 : /^(Chief\b|C[A-Z]+$)/.test(title) ? 4 : 5;
+const leadershipRank = (title: string) => title === "Chief Executive Officer" ? 0 : title === "Co-Founder" ? 1 : title === "President" ? 2 : title === "Chief Operating Officer" ? 3 : title === "Chief Innovation Officer" ? 4 : /^Chief\b/.test(title) ? 5 : 6;
 const orderedLeadership = [
   ...data.leaders.map(person => ({ ...person, open: false })),
   { id: "open-coo", name: "Chief Operating Officer", title: "Chief Operating Officer", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
+  { id: "open-vp-wholesale", name: "VP, Wholesale", title: "VP, Wholesale", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
+  { id: "open-vp-frontline", name: "VP, Frontline", title: "VP, Frontline", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
 ].sort((a, b) => leadershipRank(a.title) - leadershipRank(b.title));
 
 function Portrait({ person, large = false }: { person: Person; large?: boolean }) {
@@ -50,7 +52,7 @@ export function TeamPage({ directoryOnly = false }: { directoryOnly?: boolean })
       <nav className={styles.sectionNav} aria-label="Team page sections"><a href="#leadership">01 <span>Our leadership</span></a><a href="#directory">02 <span>Our people</span></a><a href="/join-pmr/">Build your future with us <Arrow diagonal /></a></nav>
       <section className={styles.leadership} id="leadership">
         <div className={styles.sectionTitle}><div><span className={shared.eyebrow}>LEADING WITH PURPOSE</span><h2>Experience at the top.<br /><span>People at the heart.</span></h2></div><p>Meet the leaders supporting our people, our customers, and the communities we call home.</p></div>
-        <div className={styles.leaders}>{orderedLeadership.map(person => <article className={styles.leader} key={person.id}>{person.open ? <div className={`${styles.leaderPortrait} ${styles.openRole}`}><span>COO</span><small>OPEN ROLE</small></div> : <Portrait person={person} large />}<h3>{person.name}</h3><p>{person.open ? "Open role" : person.title}</p></article>)}</div>
+        <div className={styles.leaders}>{orderedLeadership.map(person => <article className={styles.leader} key={person.id}>{person.open ? <div className={`${styles.leaderPortrait} ${styles.openRole}`}><span>{person.id === "open-coo" ? "COO" : "VP"}</span><small>OPEN ROLE</small></div> : <Portrait person={person} large />}<h3>{person.name}</h3><p>{person.open ? "Open role" : person.title}</p></article>)}</div>
         <div className={styles.leadershipBottom}><span>{data.leaders.length} leaders. One shared vision.</span></div>
       </section>
       </>}

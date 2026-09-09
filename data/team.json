@@ -3,9 +3,29 @@
   "rosterComplete": false,
   "leaders": [
     {
+      "id": "lead-marty-luckenbach",
+      "name": "Marty Luckenbach",
+      "title": "VP, Strategy",
+      "photo": "/team/marty-luckenbach.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "/team#leadership"
+    },
+    {
+      "id": "lead-bryce-gonser",
+      "name": "Bryce Gone",
+      "title": "VP, Growth",
+      "photo": "",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "/team#leadership"
+    },
+    {
       "id": "lead-cory-swain",
       "name": "Cory Swain",
-      "title": "CEO",
+      "title": "Chief Executive Officer",
       "photo": "/team/cory-swain-neutral.png",
       "category": "Leadership",
       "nmls": "",
@@ -35,7 +55,7 @@
     {
       "id": "lead-caleb-wilson",
       "name": "Caleb Wilson",
-      "title": "CFO",
+      "title": "Chief Financial Officer",
       "photo": "",
       "category": "Leadership",
       "nmls": "",
@@ -55,7 +75,7 @@
     {
       "id": "lead-amy-packer",
       "name": "Amy Packer",
-      "title": "EVP of Underwriting",
+      "title": "EVP, Underwriting",
       "photo": "/team/amy-packer.png",
       "category": "Leadership",
       "nmls": "",
@@ -105,7 +125,7 @@
     {
       "id": "lead-summertyme-shriner",
       "name": "Summertyme Shriner",
-      "title": "Director of Branch Support",
+      "title": "Director, Branch Support",
       "photo": "/team/summertyme-shriner.png",
       "category": "Leadership",
       "nmls": "",
@@ -115,7 +135,7 @@
     {
       "id": "lead-kim-scott",
       "name": "Kim Scott",
-      "title": "Director of Administration",
+      "title": "Director, Administration",
       "photo": "/team/kim-scott.png",
       "category": "Leadership",
       "nmls": "",
@@ -135,7 +155,7 @@
     {
       "id": "lead-lisa-sampson",
       "name": "Lisa Sampson",
-      "title": "Director of Human Resources",
+      "title": "Director, Human Resources",
       "photo": "/team/lisa-sampson.png",
       "category": "Leadership",
       "nmls": "",
@@ -155,18 +175,8 @@
     {
       "id": "lead-salvatore-cirrito",
       "name": "Salvatore Cirrito",
-      "title": "Director of Technology",
+      "title": "Director, Technology",
       "photo": "/team/salvatore-cirrito.png",
-      "category": "Leadership",
-      "nmls": "",
-      "phone": "",
-      "source": "https://www.pmrloans.com/leadership-at-pmr/"
-    },
-    {
-      "id": "lead-alan-wackman",
-      "name": "Alan Wackman",
-      "title": "EVP of Operations",
-      "photo": "",
       "category": "Leadership",
       "nmls": "",
       "phone": "",
