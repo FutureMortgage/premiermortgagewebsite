@@ -27,6 +27,6 @@
 .hero .primary:hover,.closing .primary:hover,.calculatorResult>.primary:hover{background:#854422}
 .optionTop>span,.valueNumber{color:var(--premier-accent)}
 .header{padding-top:6px;padding-bottom:6px}
-.hero{padding-top:114px}
+.hero{padding-top:96px}
 @media(max-width:800px){.header{padding-top:6px;padding-bottom:6px}.hero{padding-top:76px}}
 @media(max-width:480px){.hero{padding-top:63px}}
