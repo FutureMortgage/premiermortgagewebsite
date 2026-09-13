@@ -11,6 +11,7 @@ type Person = typeof data.people[number];
 const PAGE_SIZE = 24;
 const categories = ["All people", "Loan officers", "Branch managers", "Division leaders"];
 const normalize = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const divisionLeaderOrder = ["Marty Luckenbach", "Brian NeVille", "Clay Cantrell", "Corey Cantrell", "Dave Shumard", "Bari Fraire", "Tyler Eaton"].map(normalize);
 const leadershipRank = (title: string) => title === "Chief Executive Officer" ? 0 : title === "Co-Founder" ? 1 : title === "President" ? 2 : title === "Chief Operating Officer" ? 3 : title === "Chief Innovation Officer" ? 4 : /^Chief\b/.test(title) ? 5 : 6;
 const orderedLeadership = [
   ...data.leaders.map(person => ({ ...person, open: false })),
@@ -36,7 +37,10 @@ export function TeamPage({ directoryOnly = false }: { directoryOnly?: boolean })
     const executives = new Set(data.leaders.map(p => normalize(p.name)));
     return data.people.filter(p => categories.slice(1).includes(p.category) && !executives.has(normalize(p.name)));
   }, []);
-  const filtered = useMemo(() => people.filter(p => (category === "All people" || p.category === category) && normalize(`${p.name} ${p.title} ${p.nmls}`).includes(normalize(query.trim()))).sort((a, b) => sort === "za" ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name)), [people, category, query, sort]);
+  const filtered = useMemo(() => people.filter(p => (category === "All people" || p.category === category) && normalize(`${p.name} ${p.title} ${p.nmls}`).includes(normalize(query.trim()))).sort((a, b) => {
+    if (category === "Division leaders") return divisionLeaderOrder.indexOf(normalize(a.name)) - divisionLeaderOrder.indexOf(normalize(b.name));
+    return sort === "za" ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name);
+  }), [people, category, query, sort]);
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const currentPage = Math.min(page, totalPages);
   const visible = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);

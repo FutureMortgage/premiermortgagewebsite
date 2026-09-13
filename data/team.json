@@ -3,16 +3,6 @@
   "rosterComplete": false,
   "leaders": [
     {
-      "id": "lead-marty-luckenbach",
-      "name": "Marty Luckenbach",
-      "title": "VP, Strategy",
-      "photo": "/team/marty-luckenbach.png",
-      "category": "Leadership",
-      "nmls": "",
-      "phone": "",
-      "source": "/team#leadership"
-    },
-    {
       "id": "lead-bryce-gonser",
       "name": "Bryce Gone",
       "title": "VP, Growth",
@@ -56,7 +46,7 @@
       "id": "lead-caleb-wilson",
       "name": "Caleb Wilson",
       "title": "Chief Financial Officer",
-      "photo": "",
+      "photo": "/team/caleb-wilson-ai.png",
       "category": "Leadership",
       "nmls": "",
       "phone": "",
@@ -106,7 +96,7 @@
       "id": "lead-blake-bianchi",
       "name": "Blake Bianchi",
       "title": "Chief Innovation Officer",
-      "photo": "/team/blake-bianchi.png",
+      "photo": "/team/blake-bianchi-ai.png",
       "category": "Leadership",
       "nmls": "",
       "phone": "",
@@ -186,7 +176,17 @@
       "id": "lead-tracy-young",
       "name": "Tracy Young",
       "title": "Chief Credit Officer",
-      "photo": "",
+      "photo": "/team/tracy-young-ai.png",
+      "category": "Leadership",
+      "nmls": "",
+      "phone": "",
+      "source": "https://www.pmrloans.com/leadership-at-pmr/"
+    },
+    {
+      "id": "lead-alan-wackman",
+      "name": "Alan Wackman",
+      "title": "EVP of Operations",
+      "photo": "/team/alan-wackman-ai.png",
       "category": "Leadership",
       "nmls": "",
       "phone": "",
@@ -194,6 +194,16 @@
     }
   ],
   "people": [
+    {
+      "id": "division-marty-luckenbach",
+      "name": "Marty Luckenbach",
+      "title": "Division President",
+      "photo": "/team/marty-luckenbach.png",
+      "category": "Division leaders",
+      "nmls": "",
+      "phone": "",
+      "source": "/team#directory"
+    },
     {
       "id": "division-dave-shumard",
       "name": "Dave Shumard",
