@@ -45,11 +45,11 @@ export function MortgageCalculator() {
       <fieldset className={styles.termPicker}><legend>Loan term</legend><div>{[15, 20, 30].map(years => <label key={years} className={input.termYears === years ? styles.selectedTerm : ""}><input type="radio" name="loan-term" value={years} checked={input.termYears === years} onChange={() => setInput({ ...input, termYears: years })} /><span>{years} years</span></label>)}</div></fieldset>
     </div>
     <div className={styles.calculatorResult}>
-      <span className={styles.eyebrow}>A STARTING POINT FOR YOUR PLANS</span><p className={styles.paymentLabel}>Estimated monthly principal &amp; interest</p>
+      <span className={styles.eyebrow}>YOUR ESTIMATED PAYMENT</span><p className={styles.paymentLabel}>Monthly principal &amp; interest</p>
       <div className={styles.monthly} aria-live="polite" aria-atomic="true"><span>{money(estimate.principalAndInterest)}</span><span>/ month</span></div>
       <p className={styles.resultNote}>Taxes, homeowners insurance, mortgage insurance, and HOA fees are additional.</p>
       <dl className={styles.loanBreakdown}><div><dt>Home price</dt><dd>{money(input.price)}</dd></div><div><dt>Down payment</dt><dd>{money(estimate.downAmount)}</dd></div><div><dt>Loan amount</dt><dd>{money(estimate.loanAmount)}</dd></div><div><dt>Loan term</dt><dd>{input.termYears} years, fixed</dd></div></dl>
-      <a href="/find-a-loan-officer/" className={styles.primary}>Let’s talk about your numbers <span aria-hidden="true">↗</span></a>
+      <a href="/find-a-loan-officer/" className={styles.primary}>Review your options with a loan officer <span aria-hidden="true">↗</span></a>
       <p className={styles.calculatorDisclosure}>Illustrative estimate only. Not a loan offer, approval, or rate lock. Actual terms and eligibility vary.</p>
     </div>
   </div>;

@@ -23,9 +23,9 @@ const departureMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Premier Mortgage Resources — A place to call home",
+  title: "Premier Mortgage Resources — Home financing with personal guidance",
   description:
-    "Home financing built around your life. Explore buying or refinancing a home with Premier Mortgage Resources. Connect with a local loan officer. NMLS #1169.",
+    "Explore homebuying and refinancing options with clear answers and personal guidance from a local Premier loan officer. NMLS #1169.",
 };
 
 export default function RootLayout({
