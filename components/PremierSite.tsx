@@ -33,8 +33,6 @@ export function PremierHeader() {
     <header className={styles.header}>
       <Link href="/#main" aria-label="Premier Mortgage Resources home"><Mark /></Link>
       <nav aria-label="Main navigation" className={`${styles.navigation} ${menuOpen ? styles.menuOpen : ""}`} id="main-navigation">
-        <Link href="/#financing" onClick={() => setMenuOpen(false)}>Home loans</Link>
-        <Link href="/#journey" onClick={() => setMenuOpen(false)}>The Premier difference</Link>
         <Link href="/team" onClick={() => setMenuOpen(false)}>Our team</Link>
         <Link href="/careers" onClick={() => setMenuOpen(false)}>Careers</Link>
         <Link href="/#resources" onClick={() => setMenuOpen(false)}>Resources</Link>
