@@ -15,6 +15,7 @@ sources.push("components/ServicePages.tsx", "components/services.module.css", ..
 sources.push("components/StateLicenses.tsx");
 sources.push("components/JoinExtras.tsx");
 sources.push("components/AboutStory.tsx");
+sources.push("app/news", "components/Nav.tsx", "components/Footer.tsx", "components/PageHero.tsx", "components/Logo.tsx", "components/Banner.tsx");
 sources.push("app/loan-officer-careers");
 for (const relative of sources) {
   const dest = path.join(staging, relative);
