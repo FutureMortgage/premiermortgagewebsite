@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { PageHero } from "@/components/PageHero";
+import { ARTICLES } from "@/data/news";
 
 export const metadata: Metadata = {
   title: "News & Articles — Premier Mortgage",
@@ -10,17 +11,6 @@ export const metadata: Metadata = {
 };
 
 const CATEGORIES = ["All", "Market insight", "Homebuyer guides", "Company news", "Rates"];
-
-const ARTICLES = [
-  { cat: "Market insight", title: "Where rates go from here: what buyers should watch", date: "Aug 8, 2026", read: "5 min" },
-  { cat: "Homebuyer guides", title: "The 6 documents that get you pre-approved faster", date: "Aug 1, 2026", read: "4 min" },
-  { cat: "Company news", title: "Premier expands into three new states", date: "Jul 24, 2026", read: "2 min" },
-  { cat: "Rates", title: "Points, credits, and the break-even math that matters", date: "Jul 18, 2026", read: "6 min" },
-  { cat: "Homebuyer guides", title: "FHA vs. Conventional: which fits your situation?", date: "Jul 9, 2026", read: "7 min" },
-  { cat: "Market insight", title: "Why inventory — not just rates — decides your budget", date: "Jun 30, 2026", read: "5 min" },
-  { cat: "Company news", title: "Our teams gave back 4,000 volunteer hours this quarter", date: "Jun 21, 2026", read: "3 min" },
-  { cat: "Rates", title: "Should you lock now or float? A simple framework", date: "Jun 12, 2026", read: "4 min" },
-];
 
 export default function NewsPage() {
   const [featured, ...rest] = ARTICLES;
@@ -53,14 +43,14 @@ export default function NewsPage() {
 
       {/* featured */}
       <section className="mx-auto max-w-6xl px-5 py-10 sm:px-8">
-        <a href="#" className="group grid overflow-hidden rounded-3xl border border-line bg-card transition-shadow hover:shadow-lg md:grid-cols-2">
+        <a href={`/news/${featured.slug}`} className="group grid overflow-hidden rounded-3xl border border-line bg-card transition-shadow hover:shadow-lg md:grid-cols-2">
           <div className="flex aspect-[16/10] items-center justify-center bg-paper-2 md:aspect-auto">
             <span className="display text-4xl text-muted/30">Featured</span>
           </div>
           <div className="flex flex-col justify-center p-8 sm:p-10">
-            <span className="eyebrow text-gold">{featured.cat}</span>
+            <span className="eyebrow text-gold">{featured.category}</span>
             <h2 className="display mt-3 text-3xl">{featured.title}</h2>
-            <div className="mt-4 text-xs text-muted">{featured.date} · {featured.read} read</div>
+            <div className="mt-4 text-xs text-muted">{featured.date} · {featured.readTime}</div>
             <span className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium text-gold transition-transform group-hover:gap-2.5">
               Read article <span aria-hidden>→</span>
             </span>
@@ -72,11 +62,11 @@ export default function NewsPage() {
       <section className="mx-auto max-w-6xl px-5 pb-10 sm:px-8">
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {rest.map((a) => (
-            <a key={a.title} href="#" className="group flex flex-col rounded-2xl border border-line bg-card p-7 transition-all hover:-translate-y-1 hover:shadow-md">
-              <span className="eyebrow text-gold">{a.cat}</span>
+            <a key={a.title} href={`/news/${a.slug}`} className="group flex flex-col rounded-2xl border border-line bg-card p-7 transition-all hover:-translate-y-1 hover:shadow-md">
+              <span className="eyebrow text-gold">{a.category}</span>
               <h3 className="display mt-3 flex-1 text-lg leading-snug">{a.title}</h3>
               <div className="mt-6 border-t border-line pt-4 text-xs text-muted">
-                {a.date} · {a.read} read
+                {a.date} · {a.readTime}
               </div>
             </a>
           ))}
