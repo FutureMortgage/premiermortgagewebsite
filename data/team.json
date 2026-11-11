@@ -3,26 +3,6 @@
   "rosterComplete": false,
   "leaders": [
     {
-      "id": "lead-marty-luckenbach",
-      "name": "Marty Luckenbach",
-      "title": "VP, Strategy",
-      "photo": "/team/marty-luckenbach.png",
-      "category": "Leadership",
-      "nmls": "",
-      "phone": "",
-      "source": "/team#leadership"
-    },
-    {
-      "id": "lead-bryce-gonser",
-      "name": "Bryce Gone",
-      "title": "VP, Growth",
-      "photo": "",
-      "category": "Leadership",
-      "nmls": "",
-      "phone": "",
-      "source": "/team#leadership"
-    },
-    {
       "id": "lead-cory-swain",
       "name": "Cory Swain",
       "title": "Chief Executive Officer",
@@ -101,16 +81,6 @@
       "nmls": "",
       "phone": "",
       "source": "https://www.pmrloans.com/leadership-at-pmr/"
-    },
-    {
-      "id": "lead-blake-bianchi",
-      "name": "Blake Bianchi",
-      "title": "Chief Innovation Officer",
-      "photo": "/team/blake-bianchi.png",
-      "category": "Leadership",
-      "nmls": "",
-      "phone": "",
-      "source": "/team#leadership"
     },
     {
       "id": "lead-jeremy-swain",

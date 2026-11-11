@@ -23,3 +23,11 @@
 .hero .primary,.closing .primary,.calculatorResult>.primary{background:var(--premier-accent)}
 .hero .primary:hover,.closing .primary:hover,.calculatorResult>.primary:hover{background:#854422}
 .optionTop>span,.valueNumber{color:var(--premier-accent)}
+
+/* Accent footer (full-bleed): white text + white logo on the site accent */
+.footer{background:var(--premier-accent);box-shadow:0 0 0 100vmax var(--premier-accent);clip-path:inset(0 -100vmax);color:#fff}
+.footer .logo{filter:brightness(0) invert(1)}
+.footerTop h3{color:#fff}
+.footerTop a,.footerTop p,.footerBottom,.disclaimer{color:rgba(255,255,255,.85)}
+.footerTop a:hover{color:#fff}
+.footerBottom{border-top-color:rgba(255,255,255,.3)}
