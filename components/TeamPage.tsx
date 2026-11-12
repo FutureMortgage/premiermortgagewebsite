@@ -15,8 +15,7 @@ const leadershipRank = (title: string) => title === "Chief Executive Officer" ? 
 const orderedLeadership = [
   ...data.leaders.map(person => ({ ...person, open: false })),
   { id: "open-coo", name: "Chief Operating Officer", title: "Chief Operating Officer", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
-  { id: "open-vp-wholesale", name: "VP, Wholesale", title: "VP, Wholesale", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
-  { id: "open-vp-frontline", name: "VP, Frontline", title: "VP, Frontline", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
+  { id: "open-vp-excelerate", name: "VP, Excelerate", title: "VP, Excelerate", photo: "", category: "Leadership", nmls: "", phone: "", source: "", open: true },
 ].sort((a, b) => leadershipRank(a.title) - leadershipRank(b.title));
 
 function Portrait({ person, large = false }: { person: Person; large?: boolean }) {
